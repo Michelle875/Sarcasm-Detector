@@ -1,15 +1,24 @@
 This is where we will explain our project.
 
-Descriptive statistics
+Descriptive statistics:
+
 Capitalization frequency
+
 Word count per label
+
 Avg sentence length per label
+
 Distribution of sentence length
+
 Frequency n-grams (2-10)
+
 Sentiment frequency per label
+
 first/last word freq per label
 
-Preprocessing steps
+
+Preprocessing steps:
+
 Do not remove stop words - they vary per label
 Lowercase the data
 No data augmentation
@@ -22,7 +31,7 @@ Keep but make sure it is a separate token
 Differentiate between … adn .
 Do not remove stop words
 
-Feature extraction
+Feature extraction:
 Features
 Tf-idf vectorization
 Static embeddings - hyperparameter: window size
@@ -36,7 +45,7 @@ L1 + L2 regularization
 Ablation study
 Model Architecture & Selection
 
-Models
+Models:
 Bi-lstm
 Random forest
 Naive bayes
@@ -45,7 +54,7 @@ CNN
 NN
 SVM
 
-Ensemble method options
+Ensemble method options:
 Stacking
 Boosting
 
