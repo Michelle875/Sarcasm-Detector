@@ -24,10 +24,10 @@ text,label
 "['top', '5', 'bagel', 'spot', 'in', 'nyc']",0
 "['letter', 'of', 'recommendation', 'clearly', 'write', 'under', 'duress']",1
 "['chelsea', 'and', 'ivanka', 'put', 'their', 'friendship', 'on', 'ice']",0
-"['man', 'overjoy', 'he', 'no', 'longer', 'ha', 'to', 'purchase', 'entire', 'day', ""'s"", 'worth', 'of', 'egg', 'mcmuffins', 'in', 'morning']",1
+"['man', 'overjoy', 'he', 'no', 'longer', 'have', 'to', 'purchase', 'entire', 'day', ""'s"", 'worth', 'of', 'egg', 'mcmuffins', 'in', 'morning']",1
 "['solidarity', ',', 'prayer', 'and', 'support', 'for', 'torched', 'st.', 'louis', 'church']",0
 "['malaysian', 'airliner', 'shoot', 'down', ',', 'fedex', 'charge', 'over', 'drug', 'shipment', '(', 'video', ')']",0
-"['what', ""'s"", 'in', 'your', 'mailbox', '?', 'tip', 'on', 'what', 'to', 'do', 'when', 'uncle', 'sam', 'come', 'knocking']",0
+"['what', ""'s"", 'in', 'your', 'mailbox', '?', 'tip', 'on', 'what', 'to', 'do', 'when', 'uncle', 'sam', 'come', 'knock']",0
 "['hillary', 'clinton', 'resume', 'attack', 'obama']",1
 "['philippine', 'mud', 'win', 'in', 'landslide']",1
 "['company', 'to', 'get', 'head', 'start', 'on', 'christmas', 'layoff', 'this', 'year']",1
@@ -45,8 +45,8 @@ text,label
 "['hillary', 'clinton', 'spends', 'busy', 'day', 'fuel', 'speculation', ',', 'not', 'rule', 'thing', 'out']",1
 "['tribe', 'prepares', 'to', 'keep', 'up', 'pipeline', 'protest', 'through', 'north', 'dakota', 'winter']",0
 "['kentucky', 'police', 'stop', 'use', ""'punisher"", ""'"", 'logo', 'after', 'realize', 'what', 'it', 'mean']",0
-"['single', 'woman', 'ha', 'facebook', 'profile', 'picture', 'with', 'sister']",1
-"['scott', 'walker', 'say', 'he', 'doe', ""n't"", 'know', 'if', 'obama', 'be', 'a', 'christian']",0
+"['single', 'woman', 'have', 'facebook', 'profile', 'picture', 'with', 'sister']",1
+"['scott', 'walker', 'say', 'he', 'do', ""n't"", 'know', 'if', 'obama', 'be', 'a', 'christian']",0
 "['airline', 'change', 'the', 'carry-on', 'rule']",0
 "['how', 'chronic', 'stress', 'can', 'create', 'hormonal', 'havoc', ',', 'part', 'two']",0
 "['3', 'habit', 'highly', 'productive', 'people', 'do', 'every', 'day', ',', 'even', 'if', 'they', ""'re"", ""'too"", 'busy', ""'""]",0
@@ -56,15 +56,15 @@ text,label
 "['new', 'york', 'state', 'inch', 'closer', 'to', 'single-payer', 'plan', 'with', 'pickup', 'of', 'new', 'support']",0
 "['taliban', 'make', 'military', 'gain', 'in', 'afghanistan']",0
 "['report', ':', 'it', 'too', 'soon', 'to', 'glance', 'back', 'at', 'attractive', 'person']",1
-"['turn', 'out', 'joss', 'whedon', 'wa', 'actually', 'compare', 'donald', 'trump', 'to', 'a', 'dog', ',', 'not', 'ivanka']",0
+"['turn', 'out', 'joss', 'whedon', 'be', 'actually', 'compare', 'donald', 'trump', 'to', 'a', 'dog', ',', 'not', 'ivanka']",0
 "['8-year-old', 'boy', 'surprise', 'marine', 'dad', 'during', 'firefight', 'in', 'afghanistan']",1
 "['san', 'francisco', 'begin', 'provide', 'attorney', 'for', 'immigrant', 'who', 'ca', ""n't"", 'afford', 'them']",0
-"['the', 'infuriating', 'reason', 'well', 'fargo', 'get', 'away', 'with', 'it', 'massive', 'scam', 'for', 'so', 'long']",0
+"['the', 'infuriate', 'reason', 'well', 'fargo', 'get', 'away', 'with', 'it', 'massive', 'scam', 'for', 'so', 'long']",0
 "['hasbro', 'concedes', 'world', 'not', 'ready', 'for', 'rubik', ""'s"", 'chicken']",1
 "['black', 'woman', 'bishop', 'be', 'make', 'history', 'in', 'this', 'predominantly', 'white', 'church']",0
 "['be', 'you', 'happy', '?']",0
 "['san', 'francisco', 'could', 'become', 'the', 'first', 'u.s.', 'city', 'with', 'safe', 'injection', 'site', 'for', 'drug', 'user']",0
-"['hillary', 'accuses', 'china', 'of', 'try', 'to', ""'hack"", 'in', 'everything', 'that', 'doe', ""n't"", 'move', ""'""]",0
+"['hillary', 'accuses', 'china', 'of', 'try', 'to', ""'hack"", 'in', 'everything', 'that', 'do', ""n't"", 'move', ""'""]",0
 "['a', 'meditation', 'a', 'day', 'keep', 'the', 'money', 'fear', 'away']",0
 "['corporation', 'proud', 'of', 'origin', 'a', 'small', 'business', 'that', 'would', 'never', 'survive', 'in', 'modern', 'economy']",1
 "['#', 'mewesyria', ':', 'resistance', 'and', 'hope']",0
@@ -75,9 +75,9 @@ text,label
 "['rupaul', 'be', 'reinforce', 'the', 'very', 'thing', 'his', 'show', 'be', 'suppose', 'to', 'rebel', 'against']",0
 "['the', 'struggle', 'to', 'fit', 'in']",0
 "['girl', 'from', 'coffee', 'shop', 'see', 'at', 'bar', 'with', 'guy', 'from', 'record', 'store']",1
-"['how', 'many', 'woman', 'doe', 'it', 'take', 'to', 'change', 'a', 'cable', 'news', 'host', '?']",0
+"['how', 'many', 'woman', 'do', 'it', 'take', 'to', 'change', 'a', 'cable', 'news', 'host', '?']",0
 "['obama', 'pledge', 'to', 'do', 'more', 'to', 'stop', 'the', ""'epidemic"", 'of', 'gun', 'violence', ""'""]",0
-"['area', 'maggot', 'ha', 'urgent', 'news', 'about', 'reincarnation']",1
+"['area', 'maggot', 'have', 'urgent', 'news', 'about', 'reincarnation']",1
 "['north', 'carolina', 'sheriff', ""'s"", 'deputy', 'discipline', 'over', 'trump', 'rally']",0
 "['area', 'insurance', 'salesman', 'celebrate', '14th', 'year', 'of', 'quote', 'fletch']",1
 "['thomas', 'edison', 'invents', 'market', 'other', 'people', ""'s"", 'idea']",1
@@ -92,20 +92,20 @@ text,label
 "['isi', 'release', 'more', 'than', '200', 'captive', 'yazidis', 'in', 'iraq']",0
 "['puzzle', 'nation', 'can', 'remember', 'name', 'ferguson', ',', 'but', 'not', 'sure', 'from', 'where']",1
 "['stupid', 'thing', 'wo', ""n't"", 'work']",1
-"['fox', 'news', 'host', 'bret', 'baier', 'admit', 'clinton', 'indictment', 'report', 'wa', 'a', ""'mistake"", ""'""]",0
+"['fox', 'news', 'host', 'bret', 'baier', 'admit', 'clinton', 'indictment', 'report', 'be', 'a', ""'mistake"", ""'""]",0
 "['parent', 'be', 'love', 'this', 'touching', 'letter', 'write', 'from', 'a', 'newborn', ""'s"", 'perspective']",0
 "['spacecraft', 'travel', 'from', 'all', 'over', 'galaxy', 'to', 'honor', 'end', 'of', 'opportunity', 'rover', ""'s"", 'life']",1
 "['report', ':', 'half', 'of', 'all', 'american', 'probably', 'should', 'have', 'think', 'of', 'that', 'before', 'they', 'open', 'their', 'mouth']",1
 "['tv', 'executive', 'claim', 'to', 'be', 'look', 'for', 'edgy']",1
-"['the', 'kansa', 'city', 'royal', 'love', ""'trap"", 'queen', ""'"", 'more', 'than', 'you']",0
+"['the', 'kansas', 'city', 'royal', 'love', ""'trap"", 'queen', ""'"", 'more', 'than', 'you']",0
 "['radical', ',', 'extremist', 'vie', 'for', 'control', 'of', 'iran']",1
 "['kristen', 'stewart', 'ditch', 'her', 'brunette', 'lock', 'for', 'a', 'bleached', ""'do""]",0
 "['report', ':', 'majority', 'of', 'statement', 'now', 'preface', 'by', 'phrase', ""'in"", 'light', 'of', 'recent', 'event', ""'""]",1
 "['man', 'look', 'for', 'job', 'that', 'play', 'to', 'his', 'natural', 'talent', 'for', 'half-assing', 'thing']",1
 "['spatial', 'skill', 'abandon', 'area', 'man', 'during', 'search', 'for', 'correct', 'tupperware', 'lid']",1
 "['halloweiner', 'frankfest', '2013', 'poster', 'now', 'relic', 'of', 'time', 'long', 'go']",1
-"[""'you"", 'get', 'it\x99', ""'"", 'trademark']",1
-"['the', 'role', 'moderate', 'republican', 'play', 'in', 'pas', 'the', 'civil', 'right', 'act', 'of', '1964']",0
+"[""'you"", 'get', 'it\x99', ""'"", 'trademarked']",1
+"['the', 'role', 'moderate', 'republican', 'play', 'in', 'pass', 'the', 'civil', 'right', 'act', 'of', '1964']",0
 "['online', 'therapy', 'necessary', 'to', 'address', 'grow', 'mental', 'health', 'burden']",0
 "['clinton', 'will', 'weigh', 'in', 'on', 'trade', 'deal', ""'when"", 'it', ""'s"", 'final', ',', ""'"", 'campaign', 'say']",0
 "[""'trust"", 'no', 'one', ':', ""'"", 'a', 'talk', 'with', 'jayne', 'ann', 'krentz']",0
@@ -115,7 +115,7 @@ text,label
 "['here', 'be', 'your', '2017', 'emmy', 'award', 'winner']",0
 "['spouse', 'criticism', 'may', 'worsen', 'chronic', 'low', 'back', 'pain']",0
 "['michelle', 'obama', 'admit', 'barack', 'have', 'way', 'too', 'much', 'sperm', 'to', 'make', 'natural', 'conception', 'possible']",1
-"['actress', 'leaf', 'porn', 'past', 'behind', 'with', 'new', 'cinemax', 'erotic', 'thriller']",1
+"['actress', 'leave', 'porn', 'past', 'behind', 'with', 'new', 'cinemax', 'erotic', 'thriller']",1
 "['viral', 'rabbit', 'video', 'be', ""n't"", 'so', 'cute', 'when', 'you', 'know', 'the', 'real', 'story']",0
 "['on', 'jan', 'fabre', ',', 'part', '2', ':', 'scene', 'from', 'the', 'moral', 'education', 'of', 'the', 'human', 'race']",0
 "['target', 'range', 'under', 'fire', 'from', 'community', 'member']",1
@@ -124,20 +124,20 @@ text,label
 "['sunday', 'roundup']",0
 "['7', 'number', 'that', 'help', 'put', 'the', 'northern', 'california', 'wildfire', 'into', 'perspective']",0
 "['body', 'donate', 'to', 'religion']",1
-"['mike', 'tyson', 'doe', 'his', 'best', 'drake', 'impression', 'after', 'see', ""'hotline"", 'bling', ""'"", 'meme']",0
+"['mike', 'tyson', 'do', 'his', 'best', 'drake', 'impression', 'after', 'see', ""'hotline"", 'bling', ""'"", 'meme']",0
 "['pool', 'cue', 'go', 'unused', 'in', 'disappointing', 'bar', 'fight']",1
 "['trump', 'denounce', 'his', 'campaign', 'rhetoric', 'almost', 'two', 'decade', 'before', 'run', 'for', 'president']",0
 "['ant', 'hop', 'queen', 'will', 'notice', 'pretzel', 'crumb', 'he', 'get', 'her']",1
 "['tiny', ',', 'risky', ',', 'unlabeled', 'and', 'you', ""'re"", 'eat', 'it']",0
 "['viola', 'davis', 'make', 'powerful', 'demand', 'on', 'behalf', 'of', 'woman', 'of', 'color', 'at', 'woman', ""'s"", 'march']",0
-"['bus-stop', 'ad', 'ha', 'more', 'legal', 'protection', 'than', 'average', 'citizen']",1
+"['bus-stop', 'ad', 'have', 'more', 'legal', 'protection', 'than', 'average', 'citizen']",1
 "['nation', 'demand', 'nasa', 'stop', 'hold', 'press', 'conference', 'until', 'they', 'discover', 'some', 'little', 'alien', 'guy']",1
 "['the', 'mashed', 'potato', 'recipe', 'you', 'want', 'and', 'need']",0
 "['snowstorm', 'in', 'chicago', 'delay', 'hundred', 'of', 'morning', 'murder']",1
-"['hospital', 'guest', 'ha', 'creepy', 'feel', 'someone', 'might', 'have', 'die', 'in', 'her', 'room']",1
+"['hospital', 'guest', 'have', 'creepy', 'feel', 'someone', 'might', 'have', 'die', 'in', 'her', 'room']",1
 "['double-jointed', 'man', 'on', 'date', 'break', 'it', 'out', 'too', 'early']",1
 "['biden', 'clench', 'plastic', 'beer', 'cup', 'in', 'teeth', 'to', 'free', 'hand', 'for', 'clap']",1
-"[""'no"", ',', 'take', 'jeb', 'instead', ',', ""'"", 'scream', 'george', 'w.', 'bush', 'while', 'shove', 'brother', 'into', 'father', ""'s"", 'grave']",1
+"[""'no"", ',', 'take', 'jeb', 'instead', ',', ""'"", 'screams', 'george', 'w.', 'bush', 'while', 'shove', 'brother', 'into', 'father', ""'s"", 'grave']",1
 "['trump', 'tout', 'success', 'of', 'singapore', 'summit', 'after', 'secure', '$', '10', 'billion', 'trade', 'deal', 'to', 'sell', 'nuclear', 'warhead', 'to', 'north', 'korea']",1
 "['here', ""'s"", 'the', 'drunk', 'history', 'of', 'fall', 'out', 'boy']",0
 "['author', 'jeff', 'lindsay', 'say', 'goodbye', 'to', 'serial', 'killer', 'dexter', 'with', 'final', 'novel']",0
@@ -154,25 +154,25 @@ text,label
 "['who', 'warn', 'about', 'resurgence', 'of', 'guinea', 'worm', 'disease', 'a', '150-ton', 'parasite', 'splash', 'out', 'of', 'sea']",1
 "['man', 'trap', 'under', 'boulder', 'brace', 'for', 'possible', 'good', 'morning', 'america', 'interview']",1
 "['otherwise', 'savvy', 'woman', 'dupe', 'by', 'mascara', 'maker', 'again']",1
-"['knight', 'organization', 'denies', 'claim', 'that', 'overhunting', 'could', 'lead', 'to', 'extinction', 'of', 'dragon']",1
-"['tsa', 'guy', 'circle', 'stuff', 'on', 'board', 'pa', 'with', 'reckless', 'abandon']",1
+"['knight', 'organization', 'deny', 'claim', 'that', 'overhunting', 'could', 'lead', 'to', 'extinction', 'of', 'dragon']",1
+"['tsa', 'guy', 'circle', 'stuff', 'on', 'board', 'pas', 'with', 'reckless', 'abandon']",1
 "[""'family"", ""'"", 'group', 'blast', 'boy', 'scout', ""'"", 'decision', 'to', 'allow', 'trans', 'kid']",0
 "['eli', 'broad', ':', 'it', ""'s"", ""'news"", 'to', 'me', ""'"", 'i', ""'m"", 'buy', 'the', 'la', 'time']",0
 "['the', 'end', 'might', 'be', 'near', 'for', 'brick', 'and', 'mortar', 'black', 'friday']",0
-"['barbara', 'bush', 'pas', 'away', 'surround', 'by', 'loved', 'one', ',', 'jeb']",1
+"['barbara', 'bush', 'pass', 'away', 'surround', 'by', 'loved', 'one', ',', 'jeb']",1
 "['balance', '...', 'a', 'reminder', 'from', 'the', 'washing', 'machine']",0
 "['trevor', 'noah', 'just', 'sincerely', 'praised', 'donald', 'trump', 'for', 'something']",0
 "['everyone', 'glad', 'someone', 'else', 'make', 'small', 'talk', 'with', 'disabled', 'woman']",1
 "['paula', 'cole', 'reveal', 'the', 'secret', '(', 'and', 'dark', ')', 'history', 'of', 'the', ""'dawson"", ""'s"", 'creek', ""'"", 'theme', 'song']",0
-"['husky', 'ca', ""n't"", 'stop', 'blow', 'bubble', ';', 'we', 'ca', ""n't"", 'stop', 'say', 'awww']",0
-"['two', 'incredible', 'beatboxers', 'make', 'corporate', 'jargon', 'sound', 'way', 'well', 'than', 'your', 'bos', 'doe']",0
+"['husky', 'ca', ""n't"", 'stop', 'blowing', 'bubble', ';', 'we', 'ca', ""n't"", 'stop', 'say', 'awww']",0
+"['two', 'incredible', 'beatboxers', 'make', 'corporate', 'jargon', 'sound', 'way', 'well', 'than', 'your', 'bos', 'do']",0
 "['old', 'little', 'league', 'trophy', 'star', 'at']",1
 "['heroic', 'cancer', 'sufferer', 'inspire', 'others', 'to', 'get', 'cancer']",1
 "['these', 'christmas-inspired', 'burger', 'be', 'make', 'the', 'season', 'bright']",0
 "['tapa', 'arrive', 'too', 'fast']",1
 "['iggy', 'azalea', 'land', 'small', 'movie', 'role']",0
 "['paul', 'ryan', 'embrace', 'trump', ""'s"", 'executive', 'order', ',', 'but', 'speaks', 'against', ""'confusing"", ""'"", 'rollout']",0
-"['nsa', 'assures', 'american', 'that', 'prism', '2.0', 'will', 'be', 'way', 'more', 'invasive']",1
+"['nsa', 'assures', 'americans', 'that', 'prism', '2.0', 'will', 'be', 'way', 'more', 'invasive']",1
 "['real', 'love', 'be', ""n't"", 'about', 'find', 'someone', 'who', 'meet', 'all', 'the', 'criterion', 'on', 'your', 'list']",0
 "['six-year-old', 'announces', 'plan', 'to', 'become', 'ballerina', 'gymnast', 'veterinarian', 'horseback-riding', 'princess']",1
 "['ivanka', ',', 'donald', 'jr.', ',', 'eric', 'trump', 'remove', 'from', 'white', 'house', 'after', 'mother', 'win', '25-year', 'custody', 'battle']",1
@@ -184,12 +184,12 @@ text,label
 "['partygoer', 'get', 'thoughtful']",1
 "['trump', 'try', 'to', 'figure', 'out', 'how', 'to', 'unsubscribe', 'from', 'bore', 'national', 'security', 'email', 'list']",1
 "['miss', 'connection', 'at', 'a', 'trump', 'rally']",0
-"['ava', 'duvernay', 'on', 'woman', 'and', 'minority', 'breaking', 'into', 'hollywood', ':', ""'follow"", 'the', 'white', 'guy', ""'""]",0
+"['ava', 'duvernay', 'on', 'woman', 'and', 'minority', 'break', 'into', 'hollywood', ':', ""'follow"", 'the', 'white', 'guy', ""'""]",0
 "['skittish', 'juniors-department', 'clerk', 'call', 'security', 'again']",1
 "['jewish', 'man', 'charge', 'with', 'hate', 'crime', 'resurrect', 'brooklyn', ""'s"", 'racial', 'tension']",0
 "['netanyahu', 'vow', 'to', 'clog', 'the', 'river', 'with', 'skull', 'of', 'his', 'enemy', 'in', 'last-minute', 'push', 'to', 'win', 'over', 'undecided', 'voter']",1
 "['male', 'friend', 'depart', 'for', 'annual', 'camping', 'trip', 'to', 'complain', 'about', 'camp']",1
-"['bus', 'passenger', 'belief', 'she', 'life', 'in', 'world', 'where', 'curry', 'shrimp', 'be', 'odorless']",1
+"['bus', 'passenger', 'believe', 'she', 'live', 'in', 'world', 'where', 'curry', 'shrimp', 'be', 'odorless']",1
 "['peaceful', 'protest', 'interrupt', 'by', 'swarm', 'of', 'aggressive', 'black-clad', 'militant']",1
 "['bob', 'iger', ':', 'at', 'disney', ',', 'we', 'live', 'every', 'day', 'in', 'terror', 'that', 'you', ""'ll"", 'turn', 'on', 'superhero', 'movie']",1
 "['this', 'valentine', ""'s"", 'day', ',', 'more', 'american', 'be', 'search', 'for', 'love', 'online']",0
@@ -199,8 +199,8 @@ text,label
 "['6', 'step', 'to', 'help', 'you', 'genuinely', 'forgive', 'even', 'the', 'unforgivable']",0
 "['pet', 'halloween', 'costume', 'be', 'the', 'spooky', ',', 'yet', 'cute', 'trend', 'of', '2015']",0
 "['wild', 'tale', ':', 'outstanding', 'black', 'comedy', 'at', 'cannes']",0
-"['vatican', 'official', 'quietly', 'paint', 'over', 'part', 'of', 'sistine', 'chapel', 'where', 'michelangelo', 'depict', 'adam', 'finger', 'cherub']",1
-"['anonymous', 'source', 'informs', 'bob', 'woodward', 'he', 'ha', ""n't"", 'be', 'relevant', 'in', '40', 'year']",1
+"['vatican', 'official', 'quietly', 'paint', 'over', 'part', 'of', 'sistine', 'chapel', 'where', 'michelangelo', 'depict', 'adam', 'fingering', 'cherub']",1
+"['anonymous', 'source', 'informs', 'bob', 'woodward', 'he', 'have', ""n't"", 'be', 'relevant', 'in', '40', 'year']",1
 "['10', 'thing', 'your', 'mom', 'never', 'tell', 'you', 'about', 'work']",0
 "['trainer', 'share', 'the', 'bad', 'fitness', 'advice', 'they', ""'ve"", 'ever', 'hear']",0
 "['justin', 'timberlake', 'be', 'the', 'new', 'face', 'of', 'dad-pop']",0
@@ -218,9 +218,9 @@ text,label
 "['director', 'for', 'aspca', 'commercial', 'demand', 'sadder', 'look', 'dog']",1
 "['ibm', 'be', 'about', 'to', 'change', 'the', 'way', 'we', 'forecast', 'weather']",0
 "['date', 'rapist', 'toss', 'his', 'mortarboard', 'into', 'air', '3', 'row', 'in', 'front', 'of', 'you']",1
-"['waitress', 'who', 'take', 'over', 'at', 'table', 'just', 'doe', ""n't"", 'have', 'same', 'spark', 'a', 'richard']",1
+"['waitress', 'who', 'take', 'over', 'at', 'table', 'just', 'do', ""n't"", 'have', 'same', 'spark', 'a', 'richard']",1
 "['jogger', 'clearly', 'on', 'first', 'run', 'of', 'plan', 'to', 'turn', 'life', 'around']",1
-"['obese', 'man', 'ha', 'amazing', 'calf']",1
+"['obese', 'man', 'have', 'amazing', 'calf']",1
 "['director', 'of', 'census', 'bureau', 'call', 'for', 'updated', 'population', 'report', 'after', 'realize', 'he', 'forget', 'to', 'count', 'himself']",1
 "['apple', 'submits', 'brief', 'oppose', 'u.s.', 'government', ""'s"", ""'unprecedented"", ""'"", 'iphone', 'request']",0
 "['report', ':', 'do', 'your', 'part', 'to', 'stop', 'climate', 'change', 'now', 'require', 'plant', '30,000', 'new', 'tree', ',', 'get', '40,000', 'car', 'off', 'the', 'road', ',', 'revive', '20', 'square', 'mile', 'of', 'coral', 'reef']",1
@@ -238,8 +238,8 @@ text,label
 "['miss', 'girl', 'elect', 'to', 'aruban', 'parliament']",1
 "['halliburton', 'employee', ""'s"", 'pay', 'dock', 'for', 'week', 'spend', 'a', 'hostage']",1
 "['raid', 'introduce', 'new', 'box', 'to', 'cover', 'bug', 'until', 'you', 'work', 'up', 'emotional', 'strength', 'to', 'kill', 'it']",1
-"['kim', 'kardashian', 'want', ""'everyone"", 'to', 'be', 'a', 'honest', 'a', 'kanye', ""'""]",0
-"['three', 'escape', 'legislator', 'shot', 'from', 'senate', 'guard', 'tower']",1
+"['kim', 'kardashian', 'want', ""'everyone"", 'to', 'be', 'as', 'honest', 'a', 'kanye', ""'""]",0
+"['three', 'escape', 'legislator', 'shoot', 'from', 'senate', 'guard', 'tower']",1
 "['the', 'real', 'march', 'madness', ':', 'slashing', 'student', 'aid']",0
 "[""'it"", ""'s"", 'not', 'too', 'late', 'to', 'reverse', 'the', 'alarm', 'trend', 'of', 'climate', 'change', ',', ""'"", 'scientist', 'who', 'know', 'it', ""'s"", 'too', 'late', 'announce']",1
 "['nbc', 'cancel', ""'piven"", ""'"", 'after', '5', 'season']",1
@@ -249,7 +249,7 @@ text,label
 "['america', ',', 'the', 'next', 'hobby', 'lobby', 'case', 'be', 'head', 'for', 'the', 'supreme', 'court']",0
 "['barack', 'obama', ""'s"", 'endorsement', 'could', ""n't"", 'come', 'at', 'a', 'good', 'time', 'for', 'hillary', 'clinton']",0
 "['monstrously', ""'nasty"", ""'"", 'ancient', 'crocodile', 'get', 'name', 'after', 'lemmy', 'from', 'motorhead']",0
-"['pizza', 'slice', 'only', 'ha', 'one', 'pepperoni']",1
+"['pizza', 'slice', 'only', 'have', 'one', 'pepperoni']",1
 "['syrian', 'refugee', 'be', 'among', 'the', 'obamas', ""'"", 'state', 'of', 'the', 'union', 'guest']",0
 "['these', 'illustration', 'perfectly', 'sum', 'up', 'what', 'it', ""'s"", 'like', 'to', 'have', 'anxiety']",0
 "['the', 'truth', 'about', 'homepage', 'slider']",0
@@ -267,7 +267,7 @@ text,label
 "['trevor', 'noah', ""'fires"", ""'"", 'michelle', 'wolf', 'from', ""'the"", 'daily', 'show', ""'""]",0
 "['france', 'arrest', '15-year-old', 'boy', 'over', ""'imminent"", 'paris', 'attack']",0
 "['procrastinate', 'surgeon', 'put', 'off', 'coronary', 'bypass', 'by', 'clean', 'entire', 'hospital']",1
-"['taliban', 'leader', 'already', 'know', 'which', 'westernized', 'school', 'the', 'first', 'to', 'go', 'a', 'soon', 'a', 'u.s.', 'troop', 'leave', 'afghanistan']",1
+"['taliban', 'leader', 'already', 'know', 'which', 'westernize', 'school', 'the', 'first', 'to', 'go', 'as', 'soon', 'a', 'u.s.', 'troop', 'leave', 'afghanistan']",1
 "['adorable', 'kid', 'ask', 'pharrell', 'hard-hitting', 'question', 'about', 'his', 'new', 'book', ""'happy"", ""'""]",0
 "['domestic', 'violence', 'still', 'not', 'ground', 'for', 'divorce', 'in', 'mississippi']",0
 "['astronomer', 'discover', 'previously', 'unknown', 'cluster', 'of', 'nothingness', 'in', 'deep', 'space']",1
@@ -281,7 +281,7 @@ text,label
 "['few', 'animal', 'harm', 'in', 'make', 'of', 'film']",1
 "['police', 'find', 'recorded', ""'confession"", ""'"", 'on', 'austin', 'bomber', ""'s"", 'cellphone']",0
 "['trump', 'resigns', 'from', 'president', 'local', '150', 'in', 'protest', 'of', 'union']",1
-"['peripheral', 'acquaintance', 'casually', 'mention', 'she', 'wa', 'molest']",1
+"['peripheral', 'acquaintance', 'casually', 'mention', 'she', 'be', 'molest']",1
 "['the', 'family', 'talisman']",0
 "['pet', 'winterize']",1
 "['7', 'phrase', 'you', 'should', 'never', 'say', 'during', 'an', 'argument']",0
@@ -289,10 +289,10 @@ text,label
 "['cnn', 'hold', 'panel', 'discussion', 'to', 'determine', 'if', 'there', 'race', 'problem', 'in', 'america']",1
 "['donald', 'trump', 'invokes', 'michael', 'moore', 'in', 'a', 'grasp', 'for', 'liberal', 'support']",0
 "['exxon', 'donate', '$', '70', 'million', 'to', 'clean', 'up', 'portland', 'man', ""'s"", 'life']",1
-"['bar', 'ha', 'loud', ',', 'overcrowded', 'section', 'upstairs', 'too']",1
+"['bar', 'have', 'loud', ',', 'overcrowded', 'section', 'upstairs', 'too']",1
 "['well', 'fargo', 'ceo', 'should', 'resign', 'over', ""'egregious"", 'fraud', ""'"", 'with', 'fake', 'account', ',', 'lawmaker', 'say']",0
 "['strudel', 'the', 'obese', 'dog', ""'s"", 'fitness', 'journey', 'be', 'nothing', 'short', 'of', 'inspire']",0
-"['hacker', 'crack', 'voting', 'machine', 'within', 'minute', 'at', 'def', 'con', 'in', 'vega']",0
+"['hacker', 'crack', 'vote', 'machine', 'within', 'minute', 'at', 'def', 'con', 'in', 'vega']",0
 "['kfc', 'paleontologist', 'reconstruct', '24-piece', 'party', 'bucket', 'from', 'single', 'chicken', 'leg']",1
 "['5', 'trip', 'every', 'bookworm', 'should', 'take']",0
 "['harvey', 'weinstein', 'expect', 'to', 'turn', 'himself', 'in', 'to', 'the', 'nypd', 'for', 'sex', 'crime']",0
@@ -304,7 +304,7 @@ text,label
 "[""'people"", ""'s"", 'couch', ""'"", 'hunk', 'gear', 'up', 'for', 'the', 'holiday', 'in', 'a', 'very', 'big', 'way']",0
 "['union', 'plow', 'ahead', 'after', 'major', 'scotus', 'setback']",0
 "['want', 'a', 'simpler', 'tax', 'code', '?', 'sure', ',', 'but', 'it', 'will', 'cost', 'you', '.']",0
-"['we', 'now', 'have', 'even', 'more', 'proof', 'that', 'coffee', 'crave', 'be', 'genetic']",0
+"['we', 'now', 'have', 'even', 'more', 'proof', 'that', 'coffee', 'craving', 'be', 'genetic']",0
 "[""'100"", 'year', 'of', 'italian', 'beauty', ""'"", 'be', 'a', 'bellissima', 'trip', 'back', 'in', 'time']",0
 "['source', ':', ""c'mon"", ',', 'just', 'give', 'u', 'the', 'goddamn', 'pulitzer', 'already']",1
 "['two', 'new', 'documentary', 'outline', 'the', 'legacy', 'of', 'steven', 'spielberg', 'and', 'alfred', 'hitchcock']",0
@@ -317,13 +317,13 @@ text,label
 "['portugal', 'finally', 'get', 'it', 'together']",1
 "['grizzle', 'band-aid', 'weather', 'third', 'shower']",1
 "['not', 'forget', ':', 'the', 'health', 'and', 'right', 'of', 'rohingya', 'woman', 'and', 'girl']",0
-"['plane', 'delay', 'leaf', 'hundred', 'whiny']",1
+"['plane', 'delay', 'leave', 'hundred', 'whiny']",1
 "['19', 'woman', 'who', 'have', 'a', 'very', 'complicate', 'relationship', 'with', 'grill']",0
 "['woman', 'in', 'business', ':', 'mollie', 'spilman', ',', 'chief', 'revenue', 'officer', ',', 'criteo']",0
 "['woman', 'mentally', 'rearrange', 'ranking', 'of', 'child', 'while', 'open', 'mother', ""'s"", 'day', 'gift']",1
 "['prime', 'minister', 'of', 'norway', 'get', 'lay']",1
-"['police', 'assume', 'truck', 'wa', 'deliberately', 'drive', 'into', 'berlin', 'christmas', 'market']",0
-"['houseguest', 'asks', 'if', 'host', 'ha', 'blanket', 'that', ""'s"", 'never', 'be', 'wash', 'he', 'can', 'use']",1
+"['police', 'assume', 'truck', 'be', 'deliberately', 'drive', 'into', 'berlin', 'christmas', 'market']",0
+"['houseguest', 'asks', 'if', 'host', 'have', 'blanket', 'that', ""'s"", 'never', 'be', 'wash', 'he', 'can', 'use']",1
 "['michele', 'bachmann', 'thankful', 'no', 'american', 'die', 'in', 'sikh', 'shooting']",1
 "['chechen', 'strongman', 'issue', 'instagram', 'plea', 'to', 'find', 'his', 'miss', 'cat']",0
 "['what', 'i', 'want', 'other', 'parent', 'to', 'know', 'about', 'live', 'with', 'food', 'allergy']",0
@@ -333,7 +333,7 @@ text,label
 "['shoe', 'scientist', 'unveil', 'advance', ""'double"", 'knot', ""'"", 'technology']",1
 "['the', '20', 'funny', 'tweet', 'from', 'woman', 'this', 'week']",0
 "['grandma', 'defiantly', 'take', 'scone', 'recipe', 'to', 'grave']",1
-"['giant', 'bass', 'hate', 'have', 'picture', 'take']",1
+"['giant', 'bass', 'hat', 'have', 'picture', 'take']",1
 "['obama', ':', ""'hillary"", 'will', 'fight', 'to', 'protect', 'my', 'legacy', ',', 'even', 'the', 'truly', 'detestable', 'part', ""'""]",1
 "['donald', 'trump', 'pick', 'up', 'his', 'first', 'congressional', 'endorsement']",0
 "['can', 'the', 'new', 'sfmoma', 'turn', 'tech-bros', 'into', 'art', 'patron', '?']",0
@@ -343,12 +343,12 @@ text,label
 "['what', ""'s"", 'next', 'for', 'jill', 'abramson']",0
 "['data-entry', 'clerk', 'reapplies', 'carmex', 'at', '17-minute', 'interval']",1
 "['showdown', 'with', 'johnson', '&', 'johnson', ""'s"", 'alex', 'gorsky']",0
-"['historical', 'archive', ':', 'popular', 'hymn', 'heard', 'sung', 'of', 'late', '.']",1
+"['historical', 'archive', ':', 'popular', 'hymn', 'hear', 'sung', 'of', 'late', '.']",1
 "['twitter', 'paint', 'a', 'bleak', 'futuristic', 'picture', 'of', '#', 'trickortreatin100years']",0
 "['republican', 'outrage', 'by', 'inaccuracy', 'in', 'metallica', 'documentary']",1
 "['icymi', ':', 'your', 'brain', 'on', 'sleep', 'and', 'why', 'people', 'buy', 'milk', 'during', 'blizzard']",0
 "['the', 'funny', 'tweet', 'from', 'woman', 'this', 'week']",0
-"['6', 'stunning', 'room', 'that', 'prove', 'tile', 'deserves', 'to', 'be', 'so', 'much', 'more', 'than', 'a', 'backsplash']",0
+"['6', 'stun', 'room', 'that', 'prove', 'tile', 'deserves', 'to', 'be', 'so', 'much', 'more', 'than', 'a', 'backsplash']",0
 "[""'crisis"", 'actor', ""'"", 'alex', 'jones', 'get', 'a', 'taste', 'of', 'his', 'own', 'medicine', 'in', 'brilliant', 'troll']",0
 "['depressed', 'wolf', 'blitzer', 'lock', 'self', 'in', 'situation', 'room']",1
 "['whale', 'expert', 'measure', 'everything', 'in', 'elephant']",1
@@ -381,7 +381,7 @@ text,label
 "['dinosaur', 'skeleton', 'reveals', 'baby', 'may', 'have', 'live', 'on', 'their', 'own', 'from', 'birth']",0
 "['woman', 'barely', 'jog']",1
 "['u.s.', 'border', 'collie', 'round', 'up', '11', 'million', 'illegal', 'immigrant']",1
-"['god', 'announce', 'plan', 'to', 'take', 'a', 'few', 'millennium', 'to', 'focus', 'on', 'storm']",1
+"['god', 'announces', 'plan', 'to', 'take', 'a', 'few', 'millennium', 'to', 'focus', 'on', 'storm']",1
 "['rubio', ""'s"", 'mysterious', 'credit', 'card', 'data', 'reveal']",0
 "['beijing', ',', 'brazil', ',', '7-1', ':', 'awareness', 'shift', 'in', 'soccer', ',', 'society']",0
 "['it', 'kind', 'of', 'sweet', 'ceo', 'think', 'he', 'do', 'good', 'job']",1
@@ -393,14 +393,14 @@ text,label
 "['winner', 'tie', 'in', 'scripps', 'national', 'spelling', 'bee']",0
 "['study', 'find', 'only', '20', '%', 'of', 'seminary', 'graduate', 'go', 'on', 'to', 'become', 'god']",1
 "['hillary', 'clinton', 'pleasantly', 'surprise', 'after', 'find', 'old', '$', '20,000', 'donation', 'check', 'in', 'coat', 'pocket']",1
-"['military', 'recruiter', 'fondly', 'recall', 'when', 'he', 'wa', 'just', 'a', 'naïve', 'kid', 'be', 'coax', 'into', 'make', 'bind', '8-year', 'commitment', 'to', 'fill', 'quota']",1
+"['military', 'recruiter', 'fondly', 'recall', 'when', 'he', 'be', 'just', 'a', 'naïve', 'kid', 'be', 'coax', 'into', 'make', 'bind', '8-year', 'commitment', 'to', 'fill', 'quota']",1
 "['area', 'man', 'carefully', 'weigh', 'one', 'side', 'of', 'argument']",1
 "['no', 'one', 'know', 'how', 'medieval', 'nun', 'use', 'this', 'mysterious', 'prayer', 'wheel']",0
-"['tennessee', 'senate', 'pas', 'a', 'bill', 'to', 'erect', 'a', 'memorial', 'to', ""'victims"", 'of', 'abortion', ""'""]",0
+"['tennessee', 'senate', 'pass', 'a', 'bill', 'to', 'erect', 'a', 'memorial', 'to', ""'victims"", 'of', 'abortion', ""'""]",0
 "['who', 'urge', 'trump', 'to', 'expand', ',', 'not', 'repeal', ',', 'obamacare']",0
 "['jon', 'stewart', ':', 'comedy', ""'should"", ""n't"", 'be', 'an', 'act', 'of', 'courage', ""'""]",0
 "['historical', 'archive', ':', 'amazing', 'publick', 'spectacle', '!']",1
-"['mike', 'penny', 'claim', 'there', 'wa', 'no', 'contact', 'between', 'russia', 'and', 'trump', 'during', 'the', 'campaign']",0
+"['mike', 'penny', 'claim', 'there', 'be', 'no', 'contact', 'between', 'russia', 'and', 'trump', 'during', 'the', 'campaign']",0
 "['teen', 'jump', 'on', 'whale', 'shark', 'like', 'it', ""'s"", 'nbd']",0
 "['lin-manuel', 'miranda', 'disses', 'donald', 'trump', 'in', ""'my"", 'shot', ""'"", 'remix', 'on', ""'snl"", ""'""]",0
 "['nelly', 'reiterate', 'sex-liking', 'stance']",1
@@ -413,16 +413,16 @@ text,label
 "['man', ""'s"", 'heart', 'stop', 'a', 'speaker', 'ask', 'audience', 'to', 'turn', 'to', 'person', 'next', 'to', 'them']",1
 "['it', ""'s"", 'national', ""'twilight"", 'zone', ""'"", 'day', ',', 'so', 'here', ""'s"", 'every', 'creepy', 'laugh', 'from', 'the', 'show']",0
 "['cnn', 'anchor', 'interview', 'al', 'jazeera', 'anchor', 'who', 'interview', 'libyan', 'rebel']",1
-"['resident', 'of', 'three', 'year', 'decries', 'neighborhood', ""'s"", 'recent', 'gentrification']",1
+"['resident', 'of', 'three', 'year', 'decry', 'neighborhood', ""'s"", 'recent', 'gentrification']",1
 "['how', 'the', 'iran', 'nuclear', 'deal', 'come', 'to', 'be']",0
 "['trump', 'hold', 'strategy', 'meeting', 'with', 'campaign', ""'s"", 'top', 'militia', 'leader', 'ahead', 'of', 'election', 'day']",1
 "['lifetime', 'release', 'the', 'first', 'trailer', 'for', 'toni', 'braxton', ""'s"", ""'unbreak"", 'my', 'heart', ""'""]",0
-"['google', 'employee', 'disappoint', '15th', 'anniversary', 'party', 'only', 'ha', 'one', 'solar-powered', 'lego', 'drag', 'race', 'reffed', 'by', 'david', 'pogue']",1
+"['google', 'employee', 'disappoint', '15th', 'anniversary', 'party', 'only', 'have', 'one', 'solar-powered', 'lego', 'drag', 'race', 'reffed', 'by', 'david', 'pogue']",1
 "['man', 'must', 'be', 'live', 'with', 'roommate', 'by', 'choice', 'at', 'this', 'point']",1
 "['white', 'house', 'honor', 'aretha', 'franklin', 'by', 'not', 'release', 'official', 'statement', 'on', 'her', 'death']",1
-"['chrissy', 'metz', 'say', 'she', 'wa', 'physically', 'abuse', 'by', 'her', 'stepfather', 'a', 'a', 'teen']",0
+"['chrissy', 'metz', 'say', 'she', 'be', 'physically', 'abuse', 'by', 'her', 'stepfather', 'a', 'a', 'teen']",0
 "['donald', 'trump', 'actually', 'try', 'to', 'explain', 'his', 'wall', 'to', 'stephen', 'colbert']",0
-"['senate', 'leader', 'warn', 'it', 'too', 'early', 'to', 'discus', 'trump']",1
+"['senate', 'leader', 'warn', 'it', 'too', 'early', 'to', 'discuss', 'trump']",1
 "['samsung', 'slash', 'profit', 'forecast', 'after', 'pull', 'plug', 'on', 'note', '7', 'smartphone']",0
 "['new', 'dog', 'dig', 'up', 'old', 'dog']",1
 "['live', 'from', 'sundance', ':', 'wednesday', ',', 'jan.', '28']",0
@@ -430,10 +430,10 @@ text,label
 "['prison', 'warden', 'appear', 'on', 'leno', 'with', 'some', 'of', 'his', 'favorite', 'prisoner']",1
 "['fan-favorite', 'first', 'season', 'of', 'bush', 'administration', 'release', 'on', 'dvd']",1
 "['huffpost', 'pollster', '-', 'poll', 'and', 'chart']",0
-"['netanyahu', 'assures', 'critic', 'he', 'still', 'ha', 'utmost', 'respect', 'for', 'u.s.', 'money']",1
+"['netanyahu', 'assures', 'critic', 'he', 'still', 'have', 'utmost', 'respect', 'for', 'u.s.', 'money']",1
 "['complete', 'idiot', 'still', 'think', 'brittany', 'murphy', 'date', 'jeff', 'kwatinetz']",1
 "['chuck', 'schumer', 'troll', 'gop', 'over', 'donald', 'trump', ""'s"", 'comparison', 'of', 'america', 'to', 'vladimir', 'putin']",0
-"['pro-sanders', 'phillie', 'phanatic', 'place', 'mask', 'tape', 'read', ""'silenced"", ""'"", 'over', 'honker']",1
+"['pro-sanders', 'phillie', 'phanatic', 'place', 'mask', 'tape', 'reading', ""'silenced"", ""'"", 'over', 'honker']",1
 "['replacement', 'socialite', 'cunt', 'seek', 'for', 'simple', 'life', 'cast']",1
 "['bertolli', 'packaging', 'promise', 'empty', 'ravioli', 'float', 'in', 'filling-saturated', 'water', 'in', 'just', '5', 'minute']",1
 "['geico', 'save', '15', 'percent', 'or', 'more', 'by', 'discontinue', 'advertising']",1
@@ -444,19 +444,19 @@ text,label
 "['birthday', 'card', 'from', 'grandma', 'become', 'more', 'religious']",1
 "['address', 'spiritual', 'bullying', ':', 'a', 'faith', 'fable']",0
 "['terrified', ""'newsroom"", ""'"", 'writer', 'nod', 'head', 'at', 'every', 'bad', 'idea', 'aaron', 'sorkin', 'say']",1
-"[""'you"", 'be', 'the', 'jewel', 'of', 'my', 'collection', ',', ""'"", 'say', 'saudi', 'prince', 'while', 'guide', 'frighten', 'jar', 'kushner', 'toward', 'harem']",1
+"[""'you"", 'be', 'the', 'jewel', 'of', 'my', 'collection', ',', ""'"", 'say', 'saudi', 'prince', 'while', 'guide', 'frighten', 'jared', 'kushner', 'toward', 'harem']",1
 "['unwatched', 'netflix', 'dvd', 'stare', 'at', 'area', 'man', 'with', 'single', 'unblinking', 'eye']",1
 "['campus', 'tour', 'guide', 'remind', 'student', 'at', 'each', 'stop', 'they', 'have', 'to', 'get', 'in', 'first']",1
 "['dog', 'just', 'ca', ""n't"", 'stop', 'smile', 'ever', 'since', 'she', 'find', 'a', 'home']",0
 "['liquor', ""'s"", 'neon', 'color', 'likely', 'good', 'measure', 'of', 'it', 'excellence']",1
 "['life', 'much', 'well', 'thanks', 'to', 'recent', 'election']",1
-"['new', 'biography', 'reveals', 'einstein', 'devised', 'theory', 'of', 'relativity', 'on', 'paper', 'because', 'he', 'wa', ""n't"", 'smart', 'enough', 'to', 'invent', 'microsoft', 'word']",1
+"['new', 'biography', 'reveals', 'einstein', 'devised', 'theory', 'of', 'relativity', 'on', 'paper', 'because', 'he', 'be', ""n't"", 'smart', 'enough', 'to', 'invent', 'microsoft', 'word']",1
 "['cardi', 'b', 'reveals', 'baby', 'bump', 'on', ""'saturday"", 'night', 'live', ""'""]",0
-"['friend', 'ha', 'some', 'jerky', 'in', 'clear', ',', 'unlabeled', 'bag', 'for', 'you', 'to', 'try']",1
-"['well', 'skill', 'for', 'a', 'new', 'generation']",0
+"['friend', 'have', 'some', 'jerky', 'in', 'clear', ',', 'unlabeled', 'bag', 'for', 'you', 'to', 'try']",1
+"['good', 'skill', 'for', 'a', 'new', 'generation']",0
 "['ghost', 'of', 'alvah', 'roebuck', 'enjoy', 'the', 'hell', 'out', 'of', 'sears', ""'"", 'decline']",1
 "['no', 'more', 'adult', 'conversation', ',', 'prayer', 'or', 'moment', 'of', 'silence']",0
-"['trump', 'supporter', 'ha', 'few', 'backup', 'scapegoat', 'ready', 'to', 'go', 'in', 'case', 'crackdown', 'on', 'immigrant', 'doe', ""n't"", 'fix', 'everything']",1
+"['trump', 'supporter', 'have', 'few', 'backup', 'scapegoat', 'ready', 'to', 'go', 'in', 'case', 'crackdown', 'on', 'immigrant', 'do', ""n't"", 'fix', 'everything']",1
 "['a', 'dirty', 'little', 'secret', 'about', 'my', 'sex', 'life']",0
 "['everything', 'that', ""'s"", 'wrong', 'with', 'business', 'in', 'america', 'give', 'promotion']",1
 "['an', 'engineering', 'student', 'work', 'to', 'improve', 'his', 'community']",0
@@ -475,12 +475,12 @@ text,label
 "['the', 'walk', 'dead', 'gun', 'it', ',', 'whereas', 'hell', 'on', 'wheel', 'recalibrates']",0
 "['tire', 'of', 'the', 'cat', 'eye', '?', 'try', 'this', 'liner', 'trick', 'instead']",0
 "['steve', 'bannon', 'mark', 'draft', 'of', 'executive', 'order', 'he', 'like', 'with', 'noxious', 'pheromone', 'secretion']",1
-"['frustrated', 'republican', 'argue', 'pope', 'should', 'leave', 'science', 'to', 'scientist', 'who', 'deny', 'climate', 'change']",1
+"['frustrate', 'republican', 'argue', 'pope', 'should', 'leave', 'science', 'to', 'scientist', 'who', 'deny', 'climate', 'change']",1
 "['seth', 'meyers', 'hilariously', 'explain', 'holiday-themed', 'teen', 'slang']",0
 "['kourtney', 'kardashian', 'and', 'scott', 'disick', 'do', ""n't"", 'know', 'how', 'to', 'quit', 'each', 'other']",0
-"['area', 'man', 'life', 'vicariously', 'through', 'son', ""'s"", 'bully']",1
+"['area', 'man', 'live', 'vicariously', 'through', 'son', ""'s"", 'bully']",1
 "['update', ':', 'taylor', 'swift', 'back', 'together', 'with', 'ex-boyfriend', 'christopher', 'dorner']",1
-"['man', ""'s"", 'genetic', 'predisposition', 'for', 'heart', 'disease', 'no', 'match', 'for', '10', 'half-assed', 'push-ups', 'he', 'doe', 'couple', 'time', 'a', 'week']",1
+"['man', ""'s"", 'genetic', 'predisposition', 'for', 'heart', 'disease', 'no', 'match', 'for', '10', 'half-assed', 'push-ups', 'he', 'do', 'couple', 'time', 'a', 'week']",1
 "['report', ':', 'former', 'nfl', 'kicker', 'threaten', 'student', 'before', 'fatal', 'crash']",0
 "['office', 'politician', 'run', 'for', 'coffee']",1
 "['sex', 'tie', 'to', 'well', 'brain', 'power', 'in', 'old', 'age']",0
@@ -491,11 +491,11 @@ text,label
 "['photo', 'of', 'couple', 'marry', '60', 'year', 'show', 'what', 'true', 'devotion', 'really', 'look', 'like']",0
 "['over', '60', 'dead', 'after', 'suicide', 'bomber', 'target', 'mourner', 'in', 'front', 'of', 'pakistan', 'hospital']",0
 "['cancer', ""'s"", 'next', 'big', 'thing', '--', 'immunotherapy']",0
-"['why', 'kellyanne', 'conway', 'doe', ""n't"", 'get', 'a', 'break', 'on', 'her', 'bowling', 'green', 'massacre', 'lie']",0
+"['why', 'kellyanne', 'conway', 'do', ""n't"", 'get', 'a', 'break', 'on', 'her', 'bowling', 'green', 'massacre', 'lie']",0
 "['four', 'consequence', 'of', 'a', '$', '15', 'minimum', 'wage']",0
 "[""'this"", 'life', 'be', ""n't"", 'worth', 'a', 'damn', ""'"", ':', 'the', 'precarious', 'existence', 'of', 'czech', 'intellectual']",0
 "['new', 'bin', 'laden', 'tape', 'contain', 'three', 'previously', 'unreleased', 'monologue']",1
-"['eat', 'enthusiast', 'acquire', 'chocolate', 'eclair']",1
+"['eat', 'enthusiast', 'acquires', 'chocolate', 'eclair']",1
 "['ruh-roh', '!', 'runaway', ""'mystery"", 'machine', ""'"", 'take', 'police', 'on', 'high-speed', 'chase']",0
 "['report', ':', 'much', 'of', 'u.s.', 'still', 'underpaved']",1
 "['mitt', 'romney', ""'planning"", 'to', 'run', ""'"", 'for', 'senate', 'if', 'orrin', 'hatch', 'retires', ':', 'report']",0
@@ -506,13 +506,13 @@ text,label
 "['education', 'for', 'the', 'world', 'we', 'want', '(', 'part', '2', ')']",0
 "['new', 'york', 'and', 'ibiza', 'have', 'a', 'beautiful', 'sexy', 'baby', ':', 'they', 'call', 'it', 'tel', 'aviv']",0
 "['portrait', 'of', 'nude', ',', 'bleed', 'man', 'hung', 'on', 'school', 'wall']",1
-"['skittle', 'highway', 'spill', 'reveal', 'awful', 'trend', 'in', 'the', 'food', 'industry']",0
+"['skittle', 'highway', 'spill', 'reveals', 'awful', 'trend', 'in', 'the', 'food', 'industry']",0
 "['peter', 'thiel', 'want', 'to', 'buy', 'gawker', ',', 'new', 'court', 'filing', 'suggest']",0
 "['work', 'mom', 'want', 'it', 'all']",0
 "['proof', 'that', 'apple', 'watch', 'owner', 'be', 'desperate', 'to', 'convert', 'you', 'to', 'their', 'side']",0
 "['why', 'gq', ""'s"", 'amy', 'schumer', 'cover', 'be', 'a', 'little', 'disappointing']",0
 "['cast-off', 'paris', 'hilton', 'skin', 'find', 'in', 'upper', 'west', 'side', 'park']",1
-"['mike', 'penny', 'ha', 'long', 'heart-to-heart', 'with', 'staffer', 'who', 'come', 'to', 'work', 'with', 'coffee', 'on', 'breath']",1
+"['mike', 'penny', 'have', 'long', 'heart-to-heart', 'with', 'staffer', 'who', 'come', 'to', 'work', 'with', 'coffee', 'on', 'breath']",1
 "['norway', 'eliminate', 'fm', 'radio', 'despite', 'majority', 'disapproval', 'from', 'citizen']",0
 "['kidnap', 'hilton', 'sister', 'appal', 'by', 'captor', ""'s"", 'basement']",1
 "['atlanta', 'man', 'indict', 'for', 'pour', 'boiling', 'water', 'on', 'gay', 'couple']",0
@@ -529,12 +529,12 @@ text,label
 "['honor', 'congressional', 'gold', 'medal', 'recipient', 'raoul', 'wallenberg', ':', 'one', 'man', 'who', 'make', 'a', 'difference']",0
 "['medical', 'breakthrough', 'provide', 'elderly', 'woman', 'with', '2', 'extra', 'year', 'of', 'inconvenience', 'family']",1
 "['robin', 'williams', 'inflict', 'on', 'holiday', 'moviegoer', 'for', 'eighth', 'straight', 'year']",1
-"['early', 'human', 'finally', 'drink', 'enough', 'to', 'invent', 'dance']",1
+"['early', 'human', 'finally', 'drunk', 'enough', 'to', 'invent', 'dance']",1
 "['this', 'union', 'be', 'spend', 'big', 'with', 'hope', 'of', 'improve', 'the', 'plight', 'of', 'low-wage', 'worker']",0
 "['oscar', 'mayer', 'inedibles', 'not', 'huge', 'success']",1
 "['teddy', 'bear', 'feel', 'terrible', 'for', 'spark', ""'what"", 'be', 'we', '?', ""'"", 'conversation']",1
 "['america', ""'s"", 'best', '20', 'hike']",0
-"[""'"", 'i', 'be', 'not', 'your', 'negro', ""'"", 'trailer', 'show', 'the', 'lasting', 'power', 'of', 'james', 'baldwin', ""'s"", 'word']",0
+"[""'"", 'i', 'be', 'not', 'your', 'negro', ""'"", 'trailer', 'show', 'the', 'last', 'power', 'of', 'james', 'baldwin', ""'s"", 'word']",0
 "['rookie', 'tell', 'to', 'ease', 'up', 'on', 'crime-scene', 'tape']",1
 "['trump', 'warn', 'iran', 'that', 'u.s.', 'wo', ""n't"", 'tolerate', 'widespread', 'suffering', 'in', 'any', 'country', 'besides', 'america']",1
 "['eight', 'must-reads', 'for', 'fashionistas']",0
@@ -543,7 +543,7 @@ text,label
 "[""'okay"", ',', 'i', ""'m"", 'ready', 'to', 'speak', 'to', 'you', 'under', 'oath', ',', ""'"", 'say', 'eric', 'trump', 'from', 'beneath', 'rubber', 'donald', 'trump', 'mask']",1
 "['man', 'regret', 'waste', 'money', 'on', 'college', 'after', 'fail', 'to', 'secure', 'perfect', 'dream', 'life', 'by', '24']",1
 "['5-year-old', 'with', 'cancer', 'become', ""'belle"", 'of', 'the', 'ball', ""'"", 'at', 'magical', 'birthday']",0
-"['the', 'uninsured', 'rate', 'for', 'hispanic', 'kid', 'ha', 'hit', 'a', 'historic', 'low']",0
+"['the', 'uninsured', 'rate', 'for', 'hispanic', 'kid', 'have', 'hit', 'a', 'historic', 'low']",0
 "['liberal', 'horrify', 'by', 'lack', 'of', 'inexperience', 'among', 'obama', 'appointee']",1
 "['obama', 'within', 'one', 'vote', 'of', 'victory', 'on', 'iran', 'deal']",0
 "['bill', 'gate', 'offer', '$', '1', 'million', 'to', 'anyone', 'who', 'can', 'design', 'condom', 'he', 'ca', ""n't"", 'break']",1
@@ -567,7 +567,7 @@ text,label
 "['horrify', 'police', 'body', 'camera', 'footage', 'clearly', 'show', 'current', 'state', 'of', 'america']",1
 "['how', 'to', 'give', 'yourself', 'a', 'pep', 'talk', 'in', '3', 'easy', 'step']",0
 "['iraq', 'militant', 'strike', 'air', 'base', ',', 'seize', 'oilfield']",0
-"['gop', 'congressman', 'claim', 'kansa', 'ha', 'more', 'uninsured', 'since', 'health', 'care', 'reform']",0
+"['gop', 'congressman', 'claim', 'kansa', 'have', 'more', 'uninsured', 'since', 'health', 'care', 'reform']",0
 "['ray', 'lahood', 'resigns', 'follow', 'mysterious', 'disappearance', 'of', 'country', 'road']",1
 "[""'guitar"", 'hero', ""'"", 'have', 'a', 'baby', 'with', 'your', 'keyboard', ',', 'and', 'it', ""'s"", 'great']",0
 "['let', ""'s"", 'preview', 'the', 'nfl', 'playoff', '!']",0
@@ -607,15 +607,15 @@ text,label
 "['here', 'be', 'some', 'of', 'the', 'best', 'photo', 'from', 'obama', ""'s"", 'trip', 'to', 'the', '50', 'state']",0
 "['judge', 'joe', 'brown', 'begin', 'jail', 'sentence', 'for', 'contempt', 'of', 'court', 'charge']",0
 "['netanyahu', 'announces', 'day', 'of', 'mourn', 'for', 'fence', 'damage', 'in', 'yesterday', ""'s"", 'conflict']",1
-"['area', 'woman', 'always', 'ha', 'backup', 'problem', 'just', 'in', 'case']",1
+"['area', 'woman', 'always', 'have', 'backup', 'problem', 'just', 'in', 'case']",1
 "['area', 'man', 'lie', 'awake', 'at', 'night', 'worry', 'about', 'toner', 'cartridge']",1
 "['these', 'breathtakingly', 'beautiful', 'cake', 'be', 'straight', 'out', 'of', 'a', 'dream']",0
 "['try', 'to', 'keep', 'calm', 'but', 'k-pop', 'band', 'bts', 'be', 'get', 'a', 'documentary', 'series']",0
-"['there', ""'s"", 'a', 'reason', 'this', 'lonely', 'bird', 'ha', 'such', 'freaky', 'feather']",0
+"['there', ""'s"", 'a', 'reason', 'this', 'lonely', 'bird', 'have', 'such', 'freaky', 'feather']",0
 "['10', 'easy-to-tackle', 'super', 'bowl', 'sweet']",0
-"['paul', 'rudd', 'celebrate', 'kansa', 'city', 'royal', ""'"", 'win', 'by', 'get', 'shower', 'with', 'beer']",0
+"['paul', 'rudd', 'celebrate', 'kansas', 'city', 'royal', ""'"", 'win', 'by', 'get', 'shower', 'with', 'beer']",0
 "['daily', 'meditation', 'really', 'help', 'man', 'stay', 'self-centered']",1
-"['stephen', 'colbert', 'give', 'donald', 'trump', ""'s"", 'ally', 'and', 'enemy', 'the', 'funny', 'alter', 'ego']",0
+"['stephen', 'colbert', 'give', 'donald', 'trump', ""'s"", 'ally', 'and', 'enemies', 'the', 'funny', 'alter', 'ego']",0
 "['danny', 'elfman', 'on', 'the', 'ups', 'and', 'down', 'of', 'his', 'relationship', 'with', 'tim', 'burton']",0
 "['spy', 'drone', 'struggle', 'to', 'assimilate', 'back', 'into', 'civilian', 'life']",1
 "['common', 'cause', 'file', 'campaign', 'complaint', 'over', 'donald', 'trump', 'finance', ""'sleight"", 'of', 'hand', ""'""]",0
@@ -627,14 +627,14 @@ text,label
 "['the', ""'pitch"", 'perfect', '3', ""'"", 'lady', 'be', '#', 'squadgoals', 'at', 'the', 'atlanta', 'falcon', 'game']",0
 "['oh', 'god', ',', 'teacher', 'arrange', 'desk', 'in', 'giant', 'circle']",1
 "['magical', 'girlfriend', 'transmute', 'guilt', 'into', 'precious', 'stone']",1
-"['man', 'at', 'park', 'who', 'set', 'up', 'table', 'full', 'of', 'water', 'cup', 'ha', 'no', 'idea', 'how', 'passing', 'marathon', 'runner', 'get', 'impression', 'they', 'can', 'take', 'them']",1
+"['man', 'at', 'park', 'who', 'set', 'up', 'table', 'full', 'of', 'water', 'cup', 'have', 'no', 'idea', 'how', 'passing', 'marathon', 'runner', 'get', 'impression', 'they', 'can', 'take', 'them']",1
 "['justin', 'bieber', 'interrupt', 'performance', 'to', 'scold', 'spanish', 'audience']",0
 "['firefighter', 'battle', 'massive', 'wildfire', ',', 'smoky', 'condition', 'in', 'washington']",0
 "['hometown', 'boy', 'make', 'good', 'enough']",1
 "['friend', ""'s"", 'wife', 'encounter', 'twice', 'a', 'year']",1
 "['you', 'may', 'not', 'have', 'notice', 'but', 'there', 'be', 'almost', 'no', 'latino', 'film', 'in', '2015']",0
 "['prince', 'harry', ',', 'meghan', 'markle', 'set', 'up', 'bridal', 'registry', 'at', 'london-area', 'target']",1
-"['pittsburgh', 'penguin', 'defeat', 'san', 'jose', 'shark', '3-1', 'to', 'claim', 'the', 'stanley', 'cup']",0
+"['pittsburgh', 'penguins', 'defeat', 'san', 'jose', 'shark', '3-1', 'to', 'claim', 'the', 'stanley', 'cup']",0
 "['car', 'crash', 'straight', 'through', 'restaurant', 'window', ',', 'injure', '4']",0
 "['the', 'future', 'of', 'video', ':', 'vertical', 'and', 'grow', ':', 'mary', 'meeker']",0
 "['horrify', 'society', 'of', 'grotesque', 'mutant', 'discover', 'living', 'aboveground']",1
@@ -667,7 +667,7 @@ text,label
 "['a', 'brief', 'history', 'of', 'hollywood', ""'s"", 'complicate', 'relationship', 'with', 'cocaine']",0
 "['three', 'jew', 'visit', 'scandinavia']",0
 "['woman', 'always', 'think', 'she', 'would', 'have', 'more', 'impressive', 'showerhead', 'by', 'this', 'age']",1
-"['american', 'outrage', 'amazon', ""'s"", 'punishing', 'work', 'culture', 'ha', 'yet', 'to', 'yield', 'same-day', 'shipping', 'for', 'all', 'product']",1
+"['american', 'outrage', 'amazon', ""'s"", 'punishing', 'work', 'culture', 'have', 'yet', 'to', 'yield', 'same-day', 'shipping', 'for', 'all', 'product']",1
 "['be', 'made-from-scratch', 'ice', 'cream', 'shop', 'on', 'the', 'rise', '?', 'we', 'hope', 'so']",0
 "['more', 'than', '5,600', 'boat', 'migrant', 'rescue', 'off', 'north', 'africa', 'in', 'just', 'the', 'past', '3', 'day']",0
 "['sunday', 'roundup']",0
@@ -689,7 +689,7 @@ text,label
 "['out-of-control', 'group', 'yield', 'little', 'usable', 'data']",1
 "['study', 'find', 'all-consuming', 'self-pity', 'best', 'way', 'to', 'win', 'back', 'ex-partner']",1
 "[""'please"", 'hold', 'while', 'i', 'send', 'you', 'through', 'to', 'mr.', 'gilmore', ',', ""'"", 'say', 'jim', 'gilmore', 'inside', 'empty', 'campaign', 'office']",1
-"['kylo', 'ren', 'of', ""'star"", 'war', ':', 'the', 'force', 'awaken', ""'"", 'wa', 'inspire', 'by', 'nazi', '...', 'sorta']",0
+"['kylo', 'ren', 'of', ""'star"", 'war', ':', 'the', 'force', 'awakens', ""'"", 'be', 'inspire', 'by', 'nazi', '...', 'sorta']",0
 "[""'perfect"", ""'"", 'birthday', 'card', 'discover', 'in', 'local', 'mall']",1
 "[""'phantom"", 'thread', ""'"", 'win', 'academy', 'award', 'for', 'best', 'film', 'you', 'like', 'but', 'probably', 'would', ""n't"", 'see', 'again']",1
 "['i', 'wish', 'i', 'could', 'borrow', 'someone', 'else', ""'s"", 'heart', 'while', 'mine', 'heals']",0
@@ -702,7 +702,7 @@ text,label
 "[""'is"", 'it', 'too', 'late', 'to', 'audition', '?', ""'"", 'ask', 'perfect', 'actor', 'for', 'role', ',', 'poke', 'head', 'into', 'room', 'just', 'a', 'producer', 'be', 'give', 'up', 'hope']",1
 "['study', ':', 'majority', 'of', 'human', 'happiest', 'when', 'rest', 'of', 'family', 'still', 'asleep']",1
 "['[', 'not', ']', 'cook', 'off', 'the', 'cuff', ':', 'new', 'idea', 'from', 'sicily', 'and', 'naples']",0
-"['senate', 'doe', 'equifax', 'a', 'favor', 'a', 'a', 'former', 'executive', 'be', 'charge', 'with', 'insider', 'trading']",0
+"['senate', 'do', 'equifax', 'a', 'favor', 'a', 'a', 'former', 'executive', 'be', 'charge', 'with', 'insider', 'trading']",0
 "['trump', ""'s"", 'not-so-new', 'afghanistan', 'strategy']",0
 "['duterte', 'say', 'he', 'may', 'impose', 'martial', 'law', 'if', 'drug', 'problem', 'worsens']",0
 "['20th', 'century', 'fox', 'green-lights', ""'united"", '93', 'vs.', 'predator', ""'""]",1
@@ -710,15 +710,15 @@ text,label
 "['that', 'show', 'about', 'the', 'lady', 'sheriff', 'finally', 'release', 'on', 'dvd']",1
 "[""'vogue"", ""'"", 'assistant', 'photo', 'editor', 'task', 'with', 'airbrush', 'out', 'all', 'of', 'amy', 'adam', ""'"", 'swastika', 'tattoo']",1
 "['green', 'energy', 'scientist', 'unveil', '800,000-ton', 'potato', 'capable', 'of', 'power', 'entire', 'city']",1
-"['the', 'lesbian', 'that', 'find', 'the', 'gay', 'village', 'and', 'the', 'mafia', 'alliance', 'they', 'make', 'for', 'protection']",0
+"['the', 'lesbian', 'that', 'found', 'the', 'gay', 'village', 'and', 'the', 'mafia', 'alliance', 'they', 'make', 'for', 'protection']",0
 "['this', 'woman', 'may', 'be', 'the', 'world', ""'s"", 'proudest', 'grandma']",0
-"['large', 'mirror', 'bring', 'out', 'onto', 'oscar', 'stage', 'get', 'resounding', '6-minute', 'standing', 'ovation']",1
+"['large', 'mirror', 'bring', 'out', 'onto', 'oscar', 'stage', 'get', 'resound', '6-minute', 'standing', 'ovation']",1
 "['report', ':', 'still', 'a', 'few', 'second', 'leave', 'where', 'plane', 'low', 'enough', 'to', 'crash', 'with', 'everyone', 'survive']",1
 "['we', ""'re"", 'mad', 'a', 'hell', ',', 'and', 'we', ""'re"", 'not', 'go', 'to', 'take', 'it', 'anymore']",0
 "['how', 'to', 'be', 'ridiculously', 'in', 'charge', 'of', 'your', 'life']",0
 "['6-year-old', 'cry', 'when', 'tell', 'mtm', 'production', 'kitten', 'dead', 'by', 'now']",1
-"['democrat', 'and', 'republican', 'unite', 'to', 'support', 'lgbt', 'right', 'in', 'west', 'virginia']",0
-"['medicine', 'ha', 'an', 'unhealthy', 'gender', 'pay', 'gap']",0
+"['democrat', 'and', 'republicans', 'unite', 'to', 'support', 'lgbt', 'right', 'in', 'west', 'virginia']",0
+"['medicine', 'have', 'an', 'unhealthy', 'gender', 'pay', 'gap']",0
 "['report', ':', 'tiger', 'that', 'maul', 'roy', 'horn', 'still', 'struggle', 'to', 'find', 'work']",1
 "['why', 'asheville', 'need', 'an', 'equity', 'and', 'inclusion', 'manager']",0
 "['tooth', 'fairy', 'help', 'self', 'to', 'more', 'teeth']",1
@@ -734,15 +734,15 @@ text,label
 "['mild', 'sexual', 'harassment', 'ignore', 'to', 'save', 'the', 'hassle']",1
 "['scalia', 'bundle', 'up', 'in', 'fur', 'robe', 'in', 'preparation', 'for', 'd.c.', 'blizzard']",1
 "['despite', 'regional', 'difference', ',', 'woman', 'across', 'the', 'globe', 'face', 'same', 'career', 'advancement', 'challenge']",0
-"['salma', 'hayek', 'rip', 'donald', 'trump', ':', ""'he"", 'ha', 'never', 'do', 'anything', 'for', 'america', ""'""]",0
+"['salma', 'hayek', 'rip', 'donald', 'trump', ':', ""'he"", 'have', 'never', 'do', 'anything', 'for', 'america', ""'""]",0
 "['5', 'entrepreneurial', 'rule', 'to', 'live', 'by']",0
 "['12-year-old', ""'humiliated"", ""'"", 'by', 'chess', 'tournament', 'official', 'over', ""'seductive"", ""'"", 'dress']",0
 "['nation', 'to', 'try', 'channel', 'outrage', 'over', 'gun', 'control', 'into', 'issue', 'that', 'can', 'actually', 'be', 'address']",1
 "['france', ""'s"", 'sarkozy', 'call', 'for', 'two-speed', 'eu', ',', 'tight', 'border']",0
 "[""'downton"", 'abbey', ""'"", 'season', '6', 'trailer', 'preview', 'an', 'emotional', 'goodbye']",0
 "['teen', 'weed', 'user', 'may', 'face', 'high', 'risk', 'for', 'dependence']",0
-"['homemade', 'dna', 'test', 'prof', 'trump', 'boy', 'be', 'at', 'least', 'one', 'jar', 'blood']",1
-"['trump', 'boy', 'ransack', 'mueller', ""'s"", 'office', 'to', 'steal', 'answer', 'key', 'to', 'question', 'for', 'their', 'dad']",1
+"['homemade', 'dna', 'test', 'prove', 'trump', 'boy', 'be', 'at', 'least', 'one', 'jar', 'blood']",1
+"['trump', 'boys', 'ransack', 'mueller', ""'s"", 'office', 'to', 'steal', 'answer', 'key', 'to', 'question', 'for', 'their', 'dad']",1
 "['what', 'to', 'give', 'your', 'very', 'good', 'dog', 'this', 'holiday', 'season']",0
 "['mom', 'demand', 'action', ',', 'everytown', 'flex', 'grassroots', 'muscle', 'to', 'defeat', 'the', 'nra', ""'s"", 'dangerous', 'agenda']",0
 "['white', 'house', 'work', 'to', 'release', 'republican', 'memo', 'despite', 'fbi', 'warning']",0
@@ -771,7 +771,7 @@ text,label
 "['unpaid', 'internship', 'a', 'really', 'great', 'experience', 'for', 'local', 'company']",1
 "['question', 'we', 'ask', 'when', 'raise', 'black', 'boy', 'in', 'america']",0
 "['nick', 'tilsen', 'be', 'build', 'a', '$', '60', 'million', 'sustainable', 'community', 'on', 'the', 'pine', 'ridge', 'indian', 'reservation']",0
-"[""'spy"", ""'"", 'director', 'paul', 'feig', 'think', 'it', ""'s"", ""'ridiculous"", ""'"", 'woman', 'do', ""n't"", 'get', 'the', 'same', 'opportunity', 'he', 'doe']",0
+"[""'spy"", ""'"", 'director', 'paul', 'feig', 'think', 'it', ""'s"", ""'ridiculous"", ""'"", 'woman', 'do', ""n't"", 'get', 'the', 'same', 'opportunity', 'he', 'do']",0
 "['authority', 'on', 'loudspeaker', 'plead', 'with', 'holdout', 'character', 'to', 'evacuate', 'disney', 'world', 'while', 'they', 'still', 'can']",1
 "['grandma', 'happy', 'to', 'babysit', 'while', 'couple', 'desperately', 'attempt', 'to', 'rekindle', 'relationship']",1
 "['demi', 'lovato', 'drop', 'emotional', ""'nightingale"", ""'"", 'music', 'vid']",0
@@ -779,13 +779,13 @@ text,label
 "['esl', 'textbook', 'concentrate', 'on', 'food-preparation', 'vocabulary']",1
 "['return', 'jesus', 'christ', 'down', 'by', 'u.s.', 'missile', 'defense', '30,000', 'foot', 'before', 'make', 'landfall']",1
 "['happy', 'valentine', ""'s"", 'day', ',', 'weirdo', '!']",0
-"['how', 'doe', 'one', 'set', 'a', 'price', 'on', 'a', 'historic', 'site', '?']",0
+"['how', 'do', 'one', 'set', 'a', 'price', 'on', 'a', 'historic', 'site', '?']",0
 "['breathtaking', 'photo', 'of', 'witch', 'doctor', 'and', 'healer', 'reveal', 'the', 'spiritual', 'diversity', 'of', 'bolivia']",0
 "['area', 'man', ""'s"", 'favorite', 'thing', 'all', 'type', 'of', 'meat']",1
 "['melania', 'trump', 'seek', 'at', 'least', '$', '150', 'million', 'in', 'damage', 'over', 'report', 'she', 'work', 'a', 'an', 'escort']",0
 "[""'game"", 'of', 'throne', ""'"", 'actor', 'reveal', 'read', 'script', 'for', 'zombie', 'battle', 'and', 'realize', 'they', 'waste', 'career']",1
 "['hey', ',', 'all', 'you', '20-somethings', ':', 'breathe']",0
-"['why', 'travel', 'be', 'the', 'smart', 'way', 'to', 'spend', 'your', 'tax', 'refund']",0
+"['why', 'traveling', 'be', 'the', 'smart', 'way', 'to', 'spend', 'your', 'tax', 'refund']",0
 "['man', 'desperately', 'try', 'to', 'wring', 'every', 'last', 'ounce', 'of', 'relaxation', 'from', 'final', 'day', 'of', 'vacation']",1
 "['do', 'the', 'santa', 'wrap']",0
 "['brutal', 'gang', 'rape', 'give', 'screenplay', 'more', ""'punch"", ""'""]",1
@@ -800,9 +800,9 @@ text,label
 "['household', 'cleaning', 'tip', 'for', 'cold', 'and', 'flu', 'season']",0
 "['passersby', 'ca', ""n't"", 'help', 'but', 'stare', 'at', 'woman', ""'s"", 'huge', 'kid']",1
 "['dump', 'trumpers', 'think', 'they', 'need', 'just', '57', 'vote', 'to', 'win']",0
-"['if', 'men', 'menstruate', ',', 'would', 'period', 'still', 'be', 'taboo', '?']",0
+"['if', 'men', 'menstruate', ',', 'would', 'periods', 'still', 'be', 'taboo', '?']",0
 "['juul', 'unveils', 'sleek', 'new', 'e-smoker']",1
-"['single', '34-year-old', 'man', 'ha', ""n't"", 'say', 'full', 'sentence', 'aloud', 'outside', 'work', 'hour', 'in', 'past', '3', 'month']",1
+"['single', '34-year-old', 'man', 'have', ""n't"", 'say', 'full', 'sentence', 'aloud', 'outside', 'work', 'hour', 'in', 'past', '3', 'month']",1
 "['jam', 'session', 'interview', ':', 'caroline', 'dowd-higgins']",0
 "['single', 'mother', 'work', '3', 'minimum-wage', 'job', 'just', 'try', 'not', 'to', 'live', 'in', 'the', 'moment']",1
 "['costa', 'rica', ""'s"", 'green', 'energy', 'feat', 'show', 'hope', 'for', 'the', 'planet']",0
@@ -825,14 +825,14 @@ text,label
 "['wistful', 'woman', 'wonder', 'if', 'this', 'could', 'be', 'the', 'one', 'she', ""'ll"", 'sleep', 'with', 'for', 'few', 'week', 'before', 'lose', 'interest']",1
 "['gop', 'gasp', 'a', 'red-eyed', 'shadow', 'counsel', 'smash', 'out', 'of', 'gestation', 'tank']",1
 "['cornel', 'west', ':', 'obama', ""'posed"", 'a', 'a', 'progressive', '&', 'turn', 'out', 'to', 'be', 'counterfeit', ""'""]",0
-"['after', '4', 'year', 'living', 'in', 'asia', ',', 'i', ""'m"", 'suddenly', 'a', 'minority', 'again', '(', 'and', 'it', 'suck', ')']",0
+"['after', '4', 'year', 'live', 'in', 'asia', ',', 'i', ""'m"", 'suddenly', 'a', 'minority', 'again', '(', 'and', 'it', 'suck', ')']",0
 "['middlebury', 'vermont', 'town', 'council', 'continue', '242-year', 'tradition', 'of', 'american', 'democracy', 'with', '4-1', 'vote', 'to', 'rezone', 'lot', 'for', 'new', 'popeyes']",1
 "['jew', ""'"", 'covenant', 'up', 'for', 'renewal', 'with', 'god']",1
 "['slow-thinking', 'bystander', 'weigh', 'pro', 'and', 'con', 'of', 'pull', 'man', 'out', 'of', 'river']",1
 "['native', 'american', 'boy', 'pull', 'from', 'class', 'over', 'mohawk', 'hairstyle']",0
 "['ivanka', 'trump', 'and', 'marco', 'rubio', ""'s"", 'pay', 'leave', 'plan', 'be', 'a', 'disaster', 'for', 'woman']",0
 "['top', 'obama', 'official', ':', 'this', 'be', 'no', 'iraq', 'war']",0
-"['347', 'local', 'identify', 'slain', 'prostitute']",1
+"['347', 'local', 'identify', 'slay', 'prostitute']",1
 "['michelle', 'wolf', 'speak', 'out', 'on', 'white', 'house', 'correspondent', ""'"", 'dinner', 'controversy']",0
 "['what', 'the', 'new', 'superbug', 'mean', 'for', 'the', 'fight', 'against', 'antibiotic', 'resistance']",0
 "['labor', 'secretary', 'let', '8', 'million', 'unemployed', 'american', 'crash', 'at', 'his', 'place', 'until', 'they', 'get', 'back', 'on', 'their', 'foot']",1
@@ -869,7 +869,7 @@ text,label
 "['mark', 'zuckerberg', ""'s"", 'net', 'worth', 'plunge', 'not', 'even', 'close', 'to', 'enough']",1
 "['bird', 'poo', 'be', 'the', 'bad', 'flavor', 'of', 'ice', 'cream']",0
 "['bill', 'cosby', 'feel', 'well', 'now']",1
-"['shell', 'from', 'royal', 'caribbean', ""'s"", 'm.s', '.', ""'allure"", ""'"", 'sink', 'carnival', 'cruise', 'vessel', 'that', 'cross', 'into', 'disputed', 'water']",1
+"['shell', 'from', 'royal', 'caribbean', ""'s"", 'm.s', '.', ""'allure"", ""'"", 'sink', 'carnival', 'cruise', 'vessel', 'that', 'cross', 'into', 'dispute', 'water']",1
 "['the', 'best', 'rent', 'the', 'runway', 'dress', 'for', 'bridesmaid']",0
 "['anderson', 'cooper', ',', 'seth', 'meyers', 'joke', 'they', 'ca', ""n't"", 'help', 'but', 'admire', 'donald', 'trump']",0
 "['guantánamo', 'inmate', 'cheer', 'after', 'learn', 'trump', 'save', 'their', 'home']",1
@@ -892,19 +892,19 @@ text,label
 "['chaplain', 'who', 'say', 'there', ""'s"", ""'no"", 'such', 'thing', 'a', 'transgenderism', ""'"", 'now', 'say', 'obey', 'constitution', 'serf', 'satan']",0
 "['area', 'man', 'to', 'try', 'shower', 'at', 'night']",1
 "['huffpollster', ':', 'hillary', 'clinton', 'lead', 'nationally', ',', 'struggle', 'in', 'some', 'battleground', 'state']",0
-"['texas', 'hospital', 'sue', 'over', 'ebola', 'train', 'seek', 'dismissal', 'of', 'the', 'lawsuit']",0
+"['texas', 'hospital', 'sue', 'over', 'ebola', 'training', 'seek', 'dismissal', 'of', 'the', 'lawsuit']",0
 "['be', 'this', 'the', 'end', 'of', 'the', 'trump', 'reality', 'show', '?']",0
 "['mother', ""'s"", 'day', 'dinner', ':', '10', 'easy', ',', 'elegant', 'recipe', 'to', 'wow', 'mom']",0
-"['disability', 'act', 'wa', ""'life-changer"", ""'"", 'for', 'million', ',', 'but', 'new', 'legislation', 'need', 'to', 'move', 'forward']",0
+"['disability', 'act', 'be', ""'life-changer"", ""'"", 'for', 'million', ',', 'but', 'new', 'legislation', 'need', 'to', 'move', 'forward']",0
 "['every', 'family', 'member', ""'s"", 'birthday', 'now', 'mar', 'by', 'some', 'tragedy']",1
 "['teen', 'tweet', 'of', 'the', 'week', '!']",0
 "['guy', 'who', 'just', 'wipe', 'out', 'immediately', 'claim', 'he', ""'s"", 'fine']",1
-"['george', 'and', 'amal', 'clooney', ""'s"", 'support', 'for', 'florida', 'shoot', 'survivor', 'get', 'oprah', ""'s"", 'backing']",0
-"['scott', 'pruitt', '(', 'sort', 'of', ')', 'answer', 'whether', 'trump', 'belief', 'in', 'climate', 'change']",0
-"['chris', 'farley', 'ha', 'hilarious', 'cardiac', 'arrest']",1
+"['george', 'and', 'amal', 'clooney', ""'s"", 'support', 'for', 'florida', 'shooting', 'survivor', 'get', 'oprah', ""'s"", 'backing']",0
+"['scott', 'pruitt', '(', 'sort', 'of', ')', 'answer', 'whether', 'trump', 'believe', 'in', 'climate', 'change']",0
+"['chris', 'farley', 'have', 'hilarious', 'cardiac', 'arrest']",1
 "['injured', 'troop', 'request', 'extend', 'tour', 'to', 'avoid', 'be', 'send', 'to', 'walter', 'reed']",1
 "['lee', 'greenwood', 'urge', 'u.s.', 'to', 'take', 'military', 'action', 'against', 'iraq']",1
-"['pregnant', 'ellie', 'kemper', 'be', ""n't"", 'into', 'strange', 'touch', 'her', 'stomach']",0
+"['pregnant', 'ellie', 'kemper', 'be', ""n't"", 'into', 'stranger', 'touch', 'her', 'stomach']",0
 "['shareware', 'fee', 'pay']",1
 "['be', 'honest', 'with', 'everyone']",0
 "['the', 'one', 'thing', 'you', 'never', 'want', 'to', 'hear', 'tim', 'gunn', 'say', 'about', 'your', 'outfit']",0
@@ -918,7 +918,7 @@ text,label
 "['donald', 'trump', 'conveniently', 'forget', 'the', 'time', 'he', 'say', 'more', 'country', 'should', 'have', 'nuke']",0
 "['you', 'can', 'just', 'push', 'shit', 'in', 'back', 'seat', 'out', 'of', 'way']",1
 "['prescription', 'label', 'recommend', 'just', 'take', 'more', 'and', 'more', 'until', 'something', 'kick', 'in']",1
-"['the', 'story', 'of', 'sheldon', 'adelson', ""'s"", 'purchase', 'of', 'a', 'la', 'vega', 'paper', 'be', 'even', 'crazy', 'than', 'you', 'think']",0
+"['the', 'story', 'of', 'sheldon', 'adelson', ""'s"", 'purchase', 'of', 'a', 'las', 'vega', 'paper', 'be', 'even', 'crazy', 'than', 'you', 'think']",0
 "['literary', 'theorist', 'admit', 'they', 'still', 'have', 'no', 'idea', 'what', 'animal', 'farm', 'about']",1
 "['what', 'come', 'next', '?', 'rockwell', 'remind', 'u']",0
 "['new', 'year', ',', 'new', 'semester', ':', 'college', 'prep', 'for', 'junior']",0
@@ -937,7 +937,7 @@ text,label
 "['state', 'scramble', 'to', 'overcome', 'congress', ""'"", 'failure', 'to', 'move', 'on', 'chip']",0
 "['victoria', 'beckham', 'poke', 'fun', 'at', 'her', 'royal', 'wed', 'pout', 'in', 'new', 'instagram', 'post']",0
 "['gwyneth', 'paltrow', 'testifies', 'against', 'man', 'accuse', 'of', 'stalk', 'her', 'for', '17', 'year']",0
-"['tim', 'burton', 'be', 'nostalgic', 'for', 'a', 'time', 'when', ""'franchise"", ""'"", 'wa', ""n't"", 'a', 'hollywood', 'buzzword']",0
+"['tim', 'burton', 'be', 'nostalgic', 'for', 'a', 'time', 'when', ""'franchise"", ""'"", 'be', ""n't"", 'a', 'hollywood', 'buzzword']",0
 "['alice', 'water', ':', ""'we"", 'be', 'digest', 'value', ""'"", 'when', 'we', 'eat']",0
 "['first-grade', 'teacher', 'apprehends', 'urinator']",1
 "['a', 'muslim', 'american', 'mother', ""'s"", 'fear', 'and', 'hope', 'at', 'dawn', 'of', 'the', 'trump', 'era']",0
@@ -955,7 +955,7 @@ text,label
 "['invasive', 'restaurant', 'franchise', 'spread', 'to', 'third', 'state']",1
 "['steven', 'spielberg', 'say', 'netflix', 'film', 'should', ""n't"", 'qualify', 'for', 'oscar']",0
 "['grow', 'up', 'in', 'transylvania']",0
-"['congress', 'split', 'into', 'male', 'and', 'female', 'senator', 'to', 'discus', 'newest', 'reproductive', 'bill']",1
+"['congress', 'split', 'into', 'male', 'and', 'female', 'senator', 'to', 'discuss', 'newest', 'reproductive', 'bill']",1
 "['thanks', 'to', 'kickstarter', ',', 'thousand', 'of', 'endanger', 'penguin', 'will', 'get', 'new', 'home']",0
 "['mar', 'and', 'venus', 'in', 'mental', 'health']",0
 "['8', 'truth', 'about', 'celebrate', 'valentine', ""'s"", 'day', 'when', 'you', ""'re"", 'married']",0
