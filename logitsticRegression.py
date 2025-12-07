@@ -45,9 +45,9 @@ X_test  = scaler.transform(X_test)
 
 
 
-solvers = ["liblinear", "lbfgs"]
+solvers = ["liblinear", "lbfgs","saga"]
 C_values = [0.1, 1.0, 3.0, 10.0]
-penalties = ["l2","l1"]  # l1 only works with liblinear
+penalties = ["l2","l1","elasticnet"]  # l1 only works with liblinear
 
 best_acc = -1
 best_model = None
@@ -61,16 +61,27 @@ for solver in solvers:
             # liblinear supports L1 and L2, lbfgs only L2
             if solver != "liblinear" and penalty == "l1":
                 continue
+            if solver != "saga" and penalty == "elasticnet":
+                continue
 
             print(f"Trying: solver={solver}, C={C}, penalty={penalty}")
-
-            model = LogisticRegression(
-                C=C,
-                solver=solver,
-                penalty=penalty,
-                max_iter=200,
-                random_state=42
-            )
+            if penalty != "elasticnet":
+                model = LogisticRegression(
+                    C=C,
+                    solver=solver,
+                    penalty=penalty,
+                    max_iter=200,
+                    random_state=42
+                )
+            else:
+                model = LogisticRegression(
+                    C=C,
+                    solver=solver,
+                    penalty=penalty,
+                    max_iter=200,
+                    random_state=42,
+                    l1_ratio=0.5
+                )
 
             model.fit(X_train, y_train)
             preds_valid = model.predict(X_valid)
