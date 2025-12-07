@@ -61,7 +61,7 @@ for solver in solvers:
                     max_iter=200,
                     early_stopping= True,
                     random_state=42,
-                    verbose=False
+                    verbose=True
                 )
                 mlp.fit(X_train, y_train)
                 score = accuracy_score(y_valid, mlp.predict(X_valid))
@@ -74,6 +74,7 @@ for solver in solvers:
                         'layers': layers,
                         'activation': act
                     }
+                
 
 print("Best hyperparameters:", best_params)
 print("Best validation accuracy:", best_score)
