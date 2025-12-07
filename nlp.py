@@ -92,5 +92,5 @@ final_mlp = MLPClassifier(
 
 final_mlp.fit(X_train, y_train)
 
-test_pred = mlp.predict(X_test)
+test_pred = final_mlp.predict(X_test)
 print("Test Accuracy:", accuracy_score(y_test, test_pred))
