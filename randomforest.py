@@ -43,8 +43,6 @@ best_acc = -1
 best_params = None
 best_model = None
 
-print("\n--- Running hyperparameter search ---\n")
-
 for n_estimators in n_estimators_list:
     for max_depth in max_depth_list:
         for min_samples_split in min_samples_split_list:
@@ -70,7 +68,7 @@ for n_estimators in n_estimators_list:
                 best_params = (n_estimators, max_depth, min_samples_split)
                 best_model = model
 
-print("\n=== BEST MODEL ===")
+print("\nBEST MODEL")
 print("n_estimators:", best_params[0])
 print("max_depth:", best_params[1])
 print("min_samples_split:", best_params[2])

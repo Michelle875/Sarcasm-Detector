@@ -53,7 +53,6 @@ best_acc = -1
 best_model = None
 best_params = None
 
-print("\n--- Running Logistic Regression hyperparameter search ---\n")
 
 for solver in solvers:
     for C in C_values:
@@ -84,7 +83,7 @@ for solver in solvers:
                 best_model = model
                 best_params = (solver, C, penalty)
 
-print("\n=== BEST LOGISTIC REGRESSION MODEL ===")
+print("\n BEST LOGISTIC REGRESSION MODEL")
 print("Solver:", best_params[0])
 print("C:", best_params[1])
 print("Penalty:", best_params[2])
