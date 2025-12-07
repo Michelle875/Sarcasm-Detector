@@ -74,6 +74,7 @@ for solver in solvers:
                         'layers': layers,
                         'activation': act
                     }
+                
 
 print("Best hyperparameters:", best_params)
 print("Best validation accuracy:", best_score)
