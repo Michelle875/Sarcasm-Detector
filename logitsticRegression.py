@@ -45,54 +45,67 @@ X_test  = scaler.transform(X_test)
 
 
 
-solvers = ["liblinear", "lbfgs","saga"]
+solvers = ["liblinear", "lbfgs", "saga"]
 C_values = [0.1, 1.0, 3.0, 10.0]
-penalties = ["l2","l1","elasticnet"]  # l1 only works with liblinear
+penalties = ["l2", "l1", "elasticnet"]
+l1_ratios = [0.2, 0.5, 0.8]
 
 best_acc = -1
 best_model = None
 best_params = None
 
-
 for solver in solvers:
     for C in C_values:
         for penalty in penalties:
 
-            # liblinear supports L1 and L2, lbfgs only L2
-            if solver != "liblinear" and penalty == "l1":
+            if penalty == "l1" and solver != "liblinear" and solver != "saga":
                 continue
-            if solver != "saga" and penalty == "elasticnet":
+            if penalty == "elasticnet" and solver != "saga":
                 continue
 
-            print(f"Trying: solver={solver}, C={C}, penalty={penalty}")
-            if penalty != "elasticnet":
+            if penalty == "elasticnet":
+                for l1_ratio in l1_ratios:
+                    print(f"Trying: solver={solver}, C={C}, penalty={penalty}, l1_ratio={l1_ratio}")
+
+                    model = LogisticRegression(
+                        solver="saga",
+                        C=C,
+                        penalty="elasticnet",
+                        l1_ratio=l1_ratio,
+                        max_iter=5000,
+                        random_state=42
+                    )
+                    model.fit(X_train, y_train)
+
+                    acc = accuracy_score(y_valid, model.predict(X_valid))
+                    print(f" → Validation accuracy: {acc:.4f}\n")
+
+                    if acc > best_acc:
+                        best_acc = acc
+                        best_model = model
+                        best_params = (solver, C, penalty, l1_ratio)
+
+            else:
+                print(f"Trying: solver={solver}, C={C}, penalty={penalty}")
+
                 model = LogisticRegression(
-                    C=C,
                     solver=solver,
+                    C=C,
                     penalty=penalty,
-                    max_iter=200,
+                    max_iter=5000,
                     random_state=42
                 )
-            else:
-                model = LogisticRegression(
-                    C=C,
-                    solver=solver,
-                    penalty=penalty,
-                    max_iter=200,
-                    random_state=42,
-                    l1_ratio=0.5
-                )
+                model.fit(X_train, y_train)
 
-            model.fit(X_train, y_train)
-            preds_valid = model.predict(X_valid)
-            acc_valid = accuracy_score(y_valid, preds_valid)
+                acc = accuracy_score(y_valid, model.predict(X_valid))
+                print(f" → Validation accuracy: {acc:.4f}\n")
 
-            print(f" → Validation accuracy: {acc_valid:.4f}\n")
+                if acc > best_acc:
+                    best_acc = acc
+                    best_model = model
+                    best_params = (solver, C, penalty)
 
-            if acc_valid > best_acc:
-                best_acc = acc_valid
-                best_model = model
-                best_params = (solver, C, penalty)
+
 
 print("\n BEST LOGISTIC REGRESSION MODEL")
 print("Solver:", best_params[0])
