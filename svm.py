@@ -1,11 +1,19 @@
 import numpy as np
 import pandas as pd
+
 from scipy.sparse import load_npz
 from sklearn.decomposition import TruncatedSVD
-from sklearn.svm import SVC
-from sklearn.metrics import accuracy_score
+from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
+from sklearn.svm import SVC, LinearSVC
+from sklearn.metrics import f1_score, accuracy_score
+from sklearn.model_selection import GridSearchCV
+from sklearn.compose import ColumnTransformer
+from sklearn.preprocessing import FunctionTransformer
 
+# ======================
+# Load data
+# ======================
 train_tfidf = load_npz("train_tfidf.npz")
 valid_tfidf = load_npz("valid_tfidf.npz")
 test_tfidf  = load_npz("test_tfidf.npz")
@@ -18,98 +26,109 @@ y_train = train_df["label"].astype(int).values
 y_valid = valid_df["label"].astype(int).values
 y_test  = test_df["label"].astype(int).values
 
-numeric_cols = train_df.columns.difference(["text", "tokens", "pos_seq", "label"])
+numeric_cols = train_df.columns.difference(
+    ["text", "tokens", "pos_seq", "label"]
+)
+
 X_train_extra = train_df[numeric_cols].astype(np.float64).values
 X_valid_extra = valid_df[numeric_cols].astype(np.float64).values
 X_test_extra  = test_df[numeric_cols].astype(np.float64).values
 
-svd = TruncatedSVD(n_components=200, random_state=42)
+# ======================
+# Dimensionality reduction
+# ======================
+svd = TruncatedSVD(n_components=150, random_state=42)
+
 X_train_svd = svd.fit_transform(train_tfidf)
 X_valid_svd = svd.transform(valid_tfidf)
 X_test_svd  = svd.transform(test_tfidf)
 
+# ======================
+# Feature fusion
+# ======================
 X_train = np.hstack([X_train_svd, X_train_extra])
 X_valid = np.hstack([X_valid_svd, X_valid_extra])
 X_test  = np.hstack([X_test_svd,  X_test_extra])
 
+# ======================
+# Scaling
+# ======================
 scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_valid = scaler.transform(X_valid)
 X_test  = scaler.transform(X_test)
 
-kernels = ["linear", "rbf", "poly"]
-C_values = [0.1, 1.0, 10.0, 100.0]
-gamma_values = ["scale", "auto", 0.001, 0.01]
-degree_values = [2, 3, 4]
+# ======================
+# MODEL 1: Linear SVM (baseline)
+# ======================
+linear_params = {
+    "C": [0.01, 0.1, 1, 10]
+}
 
-best_acc = -1
-best_model = None
-best_params = None
+linear_svm = GridSearchCV(
+    LinearSVC(
+    max_iter=20000,
+    class_weight="balanced",
+    random_state=42
+    ),
+    param_grid=linear_params,
+    scoring="f1_weighted",
+    cv=5,
+    n_jobs=-1,
+    verbose=1
+)
 
-for kernel in kernels:
-    for C in C_values:
-        if kernel == "linear":
-            print(f"Trying: kernel={kernel}, C={C}")
-            model = SVC(
-                kernel=kernel,
-                C=C,
-                random_state=42,
-                max_iter=5000
-            )
-            model.fit(X_train, y_train)
-            acc = accuracy_score(y_valid, model.predict(X_valid))
-            print(f" → Validation accuracy: {acc:.4f}\n")
-            
-            if acc > best_acc:
-                best_acc = acc
-                best_model = model
-                best_params = {"kernel": kernel, "C": C}
-                
-        elif kernel == "rbf":
-            for gamma in gamma_values:
-                print(f"Trying: kernel={kernel}, C={C}, gamma={gamma}")
-                model = SVC(
-                    kernel=kernel,
-                    C=C,
-                    gamma=gamma,
-                    random_state=42,
-                    max_iter=5000
-                )
-                model.fit(X_train, y_train)
-                acc = accuracy_score(y_valid, model.predict(X_valid))
-                print(f" → Validation accuracy: {acc:.4f}\n")
-                
-                if acc > best_acc:
-                    best_acc = acc
-                    best_model = model
-                    best_params = {"kernel": kernel, "C": C, "gamma": gamma}
-                    
-        elif kernel == "poly":
-            for gamma in gamma_values:
-                for degree in degree_values:
-                    print(f"Trying: kernel={kernel}, C={C}, gamma={gamma}, degree={degree}")
-                    model = SVC(
-                        kernel=kernel,
-                        C=C,
-                        gamma=gamma,
-                        degree=degree,
-                        random_state=42,
-                        max_iter=5000
-                    )
-                    model.fit(X_train, y_train)
-                    acc = accuracy_score(y_valid, model.predict(X_valid))
-                    print(f" → Validation accuracy: {acc:.4f}\n")
-                    
-                    if acc > best_acc:
-                        best_acc = acc
-                        best_model = model
-                        best_params = {"kernel": kernel, "C": C, "gamma": gamma, "degree": degree}
+linear_svm.fit(X_train, y_train)
+linear_best = linear_svm.best_estimator_
 
-print("\n=== BEST SVM MODEL ===")
-for param, value in best_params.items():
-    print(f"{param}: {value}")
-print(f"Validation Accuracy: {best_acc:.4f}")
+# ======================
+# MODEL 2: RBF SVM
+# ======================
+rbf_params = {
+    "C": [0.1, 1, 10],
+    "gamma": ["scale", 0.01, 0.001]
+}
 
+rbf_svm = GridSearchCV(
+    SVC(
+        kernel="rbf",
+        max_iter=20000,
+        class_weight="balanced"
+    ),
+    param_grid=rbf_params,
+    scoring="f1_weighted",
+    cv=3,
+    n_jobs=-1,
+    verbose=1
+)
+
+rbf_svm.fit(X_train, y_train)
+rbf_best = rbf_svm.best_estimator_
+
+# ======================
+# Validation comparison
+# ======================
+linear_val_preds = linear_best.predict(X_valid)
+rbf_val_preds    = rbf_best.predict(X_valid)
+
+linear_f1 = f1_score(y_valid, linear_val_preds, average="weighted")
+rbf_f1    = f1_score(y_valid, rbf_val_preds, average="weighted")
+
+print("\n=== VALIDATION RESULTS ===")
+print(f"LinearSVC F1: {linear_f1:.4f}")
+print(f"RBF SVC   F1: {rbf_f1:.4f}")
+
+best_model = linear_best if linear_f1 >= rbf_f1 else rbf_best
+print(f"\nSelected model: {type(best_model).__name__}")
+
+# ======================
+# Final test evaluation
+# ======================
 test_preds = best_model.predict(X_test)
+
 test_acc = accuracy_score(y_test, test_preds)
-print(f"\nFINAL TEST ACCURACY: {test_acc:.4f}")
+test_f1  = f1_score(y_test, test_preds, average="weighted")
+
+print("\n=== FINAL TEST PERFORMANCE ===")
+print(f"Accuracy: {test_acc:.4f}")
+print(f"F1-score: {test_f1:.4f}")
