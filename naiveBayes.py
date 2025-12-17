@@ -45,3 +45,23 @@ print("Best validation accuracy:", best_acc)
 test_pred = best_model.predict(X_test)
 print("\nTest Accuracy:", accuracy_score(y_test, test_pred))
 print(classification_report(y_test, test_pred))
+
+
+
+train_preds = best_model.predict(X_train)
+train_probs = best_model.predict_proba(X_train)
+train_pred_class_probs = train_probs[np.arange(len(train_preds)), train_preds]
+
+pd.DataFrame({"prediction": train_preds, "probability": train_pred_class_probs, "label": y_train}).to_csv("naiveBayes_train_preds.csv", index=False)
+
+valid_preds = best_model.predict(X_valid)
+valid_probs = best_model.predict_proba(X_valid)
+valid_pred_class_probs = valid_probs[np.arange(len(valid_preds)), valid_preds]
+pd.DataFrame({"prediction": valid_preds, "probability": valid_pred_class_probs, "label": y_valid}).to_csv("naiveBayes_valid_preds.csv", index=False)
+
+test_preds = best_model.predict(X_test)
+test_probs = best_model.predict_proba(X_test)
+test_pred_class_probs = test_probs[np.arange(len(test_preds)), test_preds]
+pd.DataFrame({"prediction": test_preds, "probability": test_pred_class_probs, "label": y_test}).to_csv("naiveBayes_test_preds.csv", index=False)
+
+

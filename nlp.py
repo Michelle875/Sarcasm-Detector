@@ -91,3 +91,40 @@ final_mlp.fit(X_train, y_train)
 
 test_pred = final_mlp.predict(X_test)
 print("\nTest accuracy:", accuracy_score(y_test, test_pred))
+
+
+# Predictions
+train_pred = final_mlp.predict(X_train)
+valid_pred = final_mlp.predict(X_valid)
+test_pred  = final_mlp.predict(X_test)
+
+# Probabilities
+train_proba = final_mlp.predict_proba(X_train)
+valid_proba = final_mlp.predict_proba(X_valid)
+test_proba  = final_mlp.predict_proba(X_test)
+
+# Probability of the predicted class
+train_conf = train_proba[np.arange(len(train_pred)), train_pred]
+valid_conf = valid_proba[np.arange(len(valid_pred)), valid_pred]
+test_conf  = test_proba[np.arange(len(test_pred)),  test_pred]
+
+pd.DataFrame({
+    "prediction": train_pred,
+    "probability": train_conf,
+    "label": y_train
+}).to_csv("mlp_train_predictions.csv", index=False)
+
+pd.DataFrame({
+   
+    "prediction": valid_pred,
+    "probability": valid_conf,
+     "label": y_valid
+}).to_csv("mlp_valid_predictions.csv", index=False)
+
+pd.DataFrame({
+    "prediction": test_pred,
+    "probability": test_conf,
+    "label": y_test,
+
+}).to_csv("mlp_test_predictions.csv", index=False)
+

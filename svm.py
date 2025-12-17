@@ -78,8 +78,72 @@ linear_svm = GridSearchCV(
     verbose=1
 )
 
+<<<<<<< HEAD
 linear_svm.fit(X_train, y_train)
 linear_best = linear_svm.best_estimator_
+=======
+for kernel in kernels:
+    for C in C_values:
+        if kernel == "linear":
+            print(f"Trying: kernel={kernel}, C={C}")
+            model = SVC(
+                kernel=kernel,
+                C=C,
+                probability=True,
+                random_state=42,
+                max_iter=5000
+            )
+            model.fit(X_train, y_train)
+            acc = accuracy_score(y_valid, model.predict(X_valid))
+            print(f" → Validation accuracy: {acc:.4f}\n")
+            
+            if acc > best_acc:
+                best_acc = acc
+                best_model = model
+                best_params = {"kernel": kernel, "C": C}
+                
+        elif kernel == "rbf":
+            for gamma in gamma_values:
+                print(f"Trying: kernel={kernel}, C={C}, gamma={gamma}")
+                model = SVC(
+                    kernel=kernel,
+                    C=C,
+                    gamma=gamma,
+                    probability=True,
+                    random_state=42,
+                    max_iter=5000
+                )
+                model.fit(X_train, y_train)
+                acc = accuracy_score(y_valid, model.predict(X_valid))
+                print(f" → Validation accuracy: {acc:.4f}\n")
+                
+                if acc > best_acc:
+                    best_acc = acc
+                    best_model = model
+                    best_params = {"kernel": kernel, "C": C, "gamma": gamma}
+                    
+        elif kernel == "poly":
+            for gamma in gamma_values:
+                for degree in degree_values:
+                    print(f"Trying: kernel={kernel}, C={C}, gamma={gamma}, degree={degree}")
+                    model = SVC(
+                        kernel=kernel,
+                        C=C,
+                        gamma=gamma,
+                        degree=degree,
+                        probability=True,
+                        random_state=42,
+                        max_iter=5000
+                    )
+                    model.fit(X_train, y_train)
+                    acc = accuracy_score(y_valid, model.predict(X_valid))
+                    print(f" → Validation accuracy: {acc:.4f}\n")
+                    
+                    if acc > best_acc:
+                        best_acc = acc
+                        best_model = model
+                        best_params = {"kernel": kernel, "C": C, "gamma": gamma, "degree": degree}
+>>>>>>> 11a4fb5 (stacking completed)
 
 # ======================
 # MODEL 2: RBF SVM
@@ -127,8 +191,30 @@ print(f"\nSelected model: {type(best_model).__name__}")
 test_preds = best_model.predict(X_test)
 
 test_acc = accuracy_score(y_test, test_preds)
+<<<<<<< HEAD
 test_f1  = f1_score(y_test, test_preds, average="weighted")
 
 print("\n=== FINAL TEST PERFORMANCE ===")
 print(f"Accuracy: {test_acc:.4f}")
 print(f"F1-score: {test_f1:.4f}")
+=======
+print(f"\nFINAL TEST ACCURACY: {test_acc:.4f}")
+
+
+train_preds = best_model.predict(X_train)
+train_probs = best_model.predict_proba(X_train)
+train_pred_class_probs = train_probs[np.arange(len(train_preds)), train_preds]
+
+pd.DataFrame({"prediction": train_preds, "probability": train_pred_class_probs, "label": y_train}).to_csv("svm_train_preds.csv", index=False)
+
+valid_preds = best_model.predict(X_valid)
+valid_probs = best_model.predict_proba(X_valid)
+valid_pred_class_probs = valid_probs[np.arange(len(valid_preds)), valid_preds]
+pd.DataFrame({"prediction": valid_preds, "probability": valid_pred_class_probs, "label": y_valid}).to_csv("svm_valid_preds.csv", index=False)
+
+test_preds = best_model.predict(X_test)
+test_probs = best_model.predict_proba(X_test)
+test_pred_class_probs = test_probs[np.arange(len(test_preds)), test_preds]
+pd.DataFrame({"prediction": test_preds, "probability": test_pred_class_probs, "label": y_test}).to_csv("svm_test_preds.csv", index=False)
+
+>>>>>>> 11a4fb5 (stacking completed)
