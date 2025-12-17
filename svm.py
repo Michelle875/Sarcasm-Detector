@@ -78,10 +78,8 @@ linear_svm = GridSearchCV(
     verbose=1
 )
 
-<<<<<<< HEAD
 linear_svm.fit(X_train, y_train)
 linear_best = linear_svm.best_estimator_
-=======
 for kernel in kernels:
     for C in C_values:
         if kernel == "linear":
@@ -143,7 +141,6 @@ for kernel in kernels:
                         best_acc = acc
                         best_model = model
                         best_params = {"kernel": kernel, "C": C, "gamma": gamma, "degree": degree}
->>>>>>> 11a4fb5 (stacking completed)
 
 # ======================
 # MODEL 2: RBF SVM
@@ -191,13 +188,11 @@ print(f"\nSelected model: {type(best_model).__name__}")
 test_preds = best_model.predict(X_test)
 
 test_acc = accuracy_score(y_test, test_preds)
-<<<<<<< HEAD
 test_f1  = f1_score(y_test, test_preds, average="weighted")
 
 print("\n=== FINAL TEST PERFORMANCE ===")
 print(f"Accuracy: {test_acc:.4f}")
 print(f"F1-score: {test_f1:.4f}")
-=======
 print(f"\nFINAL TEST ACCURACY: {test_acc:.4f}")
 
 
@@ -217,4 +212,3 @@ test_probs = best_model.predict_proba(X_test)
 test_pred_class_probs = test_probs[np.arange(len(test_preds)), test_preds]
 pd.DataFrame({"prediction": test_preds, "probability": test_pred_class_probs, "label": y_test}).to_csv("svm_test_preds.csv", index=False)
 
->>>>>>> 11a4fb5 (stacking completed)
