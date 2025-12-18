@@ -841,3 +841,72 @@ lr_newdata_predictions = pd.DataFrame({
 })
 
 lr_newdata_predictions.to_csv("logisticRegression_newdata_predictions.csv", index=False)
+
+# ======================
+# CNN/MLP Predictions
+# ======================
+cnn_model = load("final_cnn.pkl")
+svd_cnn = load("svd_cnn.joblib")
+scaler_cnn = load("scaler_cnn.joblib")
+
+# Get numeric features
+X_num = data2[numeric_cols].astype(np.float64).values
+
+# Apply SVD to TF-IDF
+X_svd = svd_cnn.transform(data_tfidf)
+
+# Combine SVD features with numeric features
+X_combined = np.hstack([X_svd, X_num])
+
+# Scale features
+X_scaled = scaler_cnn.transform(X_combined)
+
+# Predict
+preds = cnn_model.predict(X_scaled)
+probs = cnn_model.predict_proba(X_scaled)
+pred_class_probs = probs[np.arange(len(preds)), preds]
+
+# Save predictions
+cnn_newdata_predictions = pd.DataFrame({
+    "prediction": preds,
+    "probability": pred_class_probs,
+    "label": data2["label"].values
+})
+cnn_newdata_predictions.to_csv("cnn_newdata_predictions.csv", index=False)
+print("✓ CNN/MLP predictions saved!")
+
+# ======================
+# SVM Predictions
+# ======================
+from joblib import load
+
+svm_model = load("final_svm.pkl")
+svd_svm = load("svd_svm.joblib")
+scaler_svm = load("scaler_svm.joblib")
+
+# Get numeric features
+numeric_cols = data2.columns.difference(['text','tokens','pos_seq','label'])
+X_num = data2[numeric_cols].astype(np.float64).values
+
+# Apply SVD to TF-IDF
+X_svd = svd_svm.transform(data_tfidf)
+
+# Combine SVD features with numeric features
+X_combined = np.hstack([X_svd, X_num])
+
+# Scale features
+X_scaled = scaler_svm.transform(X_combined)
+
+# Predict
+preds = svm_model.predict(X_scaled)
+probs = svm_model.predict_proba(X_scaled)
+pred_class_probs = probs[np.arange(len(preds)), preds]
+
+# Save predictions
+svm_newdata_predictions = pd.DataFrame({
+    "prediction": preds,
+    "probability": pred_class_probs,
+    "label": data2["label"].values
+})
+svm_newdata_predictions.to_csv("svm_newdata_predictions.csv", index=False)
+print("✓ SVM predictions saved!")
