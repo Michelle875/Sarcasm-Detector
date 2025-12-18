@@ -4,6 +4,7 @@ from scipy.sparse import load_npz
 from sklearn.decomposition import TruncatedSVD
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score
+from joblib import dump
 
 train_tfidf = load_npz("train_tfidf.npz")
 valid_tfidf = load_npz("valid_tfidf.npz")
@@ -96,4 +97,5 @@ test_probs = best_model.predict_proba(X_test)
 test_pred_class_probs = test_probs[np.arange(len(test_preds)), test_preds]
 pd.DataFrame({"prediction": test_preds, "probability": test_pred_class_probs, "label": y_test}).to_csv("randomForest_test_preds.csv", index=False)
 
-
+dump(best_model, "final_RF.pkl")
+dump(svd, "svd_RF.joblib")

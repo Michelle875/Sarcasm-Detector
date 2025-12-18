@@ -3,6 +3,7 @@ import numpy as np
 from scipy.sparse import load_npz
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.metrics import accuracy_score, classification_report
+from joblib import dump
 
 # Load TF-IDF matrices
 X_train = load_npz("train_tfidf.npz")
@@ -64,4 +65,4 @@ test_probs = best_model.predict_proba(X_test)
 test_pred_class_probs = test_probs[np.arange(len(test_preds)), test_preds]
 pd.DataFrame({"prediction": test_preds, "probability": test_pred_class_probs, "label": y_test}).to_csv("naiveBayes_test_preds.csv", index=False)
 
-
+dump(best_model, "final_NB.pkl")

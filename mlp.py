@@ -4,6 +4,7 @@ from scipy.sparse import load_npz, hstack, csr_matrix
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
+from joblib import dump
 
 
 train_tfidf = load_npz("train_tfidf.npz")
@@ -92,3 +93,5 @@ pd.DataFrame({
 }).to_csv("mlp_test_predictions.csv", index=False)
 
 
+dump(final_mlp, "final_mlp.pkl")
+dump(scaler, "mlp_scaler.pkl")

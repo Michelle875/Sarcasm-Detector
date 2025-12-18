@@ -1,7 +1,14 @@
+#NOTE: NEED SKLEARN VERSION 1.70
+
+
+
 import pandas as pd
 data = input("input relative path to new data file (must have columns 'text' and 'label'): ")
 data = pd.read_csv(data)
 original_data = data.copy()
+
+from scipy.sparse import load_npz
+from joblib import load
 
 #libraries
 import numpy as np
@@ -64,9 +71,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 # vectorizer = joblib.load("tfidf_vectorizer.pkl")
 
-vectorizer = TfidfVectorizer(lowercase=False)
+vectorizer = load("tfidf_vectorizer.pkl")
 
-train_tfidf = vectorizer.fit_transform(df_train_str['text'])
+train_tfidf = load_npz("train_tfidf.npz")
 data_tfidf = vectorizer.transform(original_data['text'])
 
 
@@ -358,6 +365,7 @@ def add_pos_bigrams(df):
 data = add_pos_bigrams(data)
 df_train = add_pos_bigrams(df_train)
 
+data2=data.copy()
 
 
 import torch
@@ -728,3 +736,108 @@ print("Validation Accuracy:", accuracy_score(val_labels, np.argmax(val_probs, ax
 print("Validation Confusion Matrix:\n", confusion_matrix(val_labels, np.argmax(val_probs, axis=1)))
 print("Validation Classification Report:\n", classification_report(val_labels, np.argmax(val_probs, axis=1)))
 
+
+from scipy.sparse import load_npz, hstack, csr_matrix
+from joblib import load
+
+
+mlp = load("final_mlp.pkl")
+mlp_scaler = load("mlp_scaler.pkl")
+
+numeric_cols = data2.columns.difference(
+    ['text','tokens','pos_seq','label']
+)
+
+X_num = data2[numeric_cols].astype(float).values
+X_num = mlp_scaler.transform(X_num)
+
+X_test = hstack([
+    data_tfidf,
+    csr_matrix(X_num)
+]).toarray()
+
+pred = mlp.predict(X_test)
+proba = mlp.predict_proba(X_test)
+
+confidence = proba[np.arange(len(pred)), pred]
+
+mlp_newdata_predictions=pd.DataFrame({
+    "prediction": pred,
+    "probability": confidence,
+    "label": data2["label"].values
+})
+
+mlp_newdata_predictions.to_csv("mlp_newdata_predictions.csv", index=False)
+
+nb_model = load("final_NB.pkl") 
+
+
+pred = nb_model.predict(data_tfidf)
+proba = nb_model.predict_proba(data_tfidf)
+confidence = proba[np.arange(len(pred)), pred]
+
+# Save predictions
+nb_newdata_predictions = pd.DataFrame({
+    "prediction": pred,
+    "probability": confidence,
+    "label": data2["label"].values
+})
+
+nb_newdata_predictions.to_csv("naiveBayes_newdata_predictions.csv", index=False)
+
+
+svd = load("svd_RF.joblib")
+rf_model = load("final_RF.pkl")
+
+# Transform TF-IDF for new data
+X_svd = svd.transform(data_tfidf)
+
+# Numeric features (reuse your existing numeric_cols)
+X_num = data2[numeric_cols].astype(float).values
+
+# Combine SVD + numeric features
+X_test = np.hstack([X_svd, X_num])
+
+# Predict
+pred = rf_model.predict(X_test)
+proba = rf_model.predict_proba(X_test)
+confidence = proba[np.arange(len(pred)), pred]
+
+# Save predictions
+rf_newdata_predictions = pd.DataFrame({
+    "prediction": pred,
+    "probability": confidence,
+    "label": data2["label"].values
+})
+rf_newdata_predictions.to_csv("randomForest_newdata_predictions.csv", index=False)
+
+
+
+svd = load("svd_LR.joblib")
+scaler = load("scaler_LR")
+lr_model = load("final_LR.pkl")
+
+X_num = data2[numeric_cols].astype(float).values
+
+# Apply SVD to TF-IDF
+X_svd = svd.transform(data_tfidf)
+
+# Combine SVD features with numeric features
+X_combined = np.hstack([X_svd, X_num])
+
+# Scale features
+X_scaled = scaler.transform(X_combined)
+
+# Predict
+preds = lr_model.predict(X_scaled)
+probs = lr_model.predict_proba(X_scaled)
+pred_class_probs = probs[np.arange(len(preds)), preds]
+
+# Save predictions
+lr_newdata_predictions = pd.DataFrame({
+    "prediction": preds,
+    "probability": pred_class_probs,
+    "label": data2["label"].values  # optional if labels exist
+})
+
+lr_newdata_predictions.to_csv("logisticRegression_newdata_predictions.csv", index=False)
